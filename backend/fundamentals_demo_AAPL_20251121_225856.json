@@ -1,0 +1,98 @@
+{
+  "q1": {
+    "rec": "CompanySpecific",
+    "confidence": "Medium",
+    "reasons": [
+      "Recent news indicates concerns over iPhone demand, particularly in China, which is a company-specific issue.",
+      "Regulatory scrutiny and potential antitrust issues are also impacting Apple specifically.",
+      "While market breadth is 50% down, AAPL's dip of 4.0% from its 52-week high suggests factors beyond general market performance are at play."
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/technology/apple-faces-renewed-eu-scrutiny-over-app-store-rules-2024-05-06/",
+        "title": "Apple faces renewed EU scrutiny over App Store rules",
+        "published_at": "2024-05-06T15:52:31+00:00",
+        "snippet": "May 6 (Reuters) - Apple (AAPL.O) is facing renewed scrutiny from EU antitrust regulators over its App Store rules, the Financial Times reported on Monday, citing people familiar with the matter."
+      },
+      {
+        "url": "https://www.barrons.com/articles/apple-stock-price-china-iphone-demand-downgrade-7e2cae19",
+        "title": "Apple Stock Is Falling Because China Demand Is Weak, Analyst Says",
+        "published_at": "2024-01-08T15:45:00-05:00",
+        "snippet": "Apple stock fell Monday after an analyst at KeyBanc Capital Markets downgraded the shares, citing weak iPhone demand in China."
+      }
+    ]
+  },
+  "q2": {
+    "rec": "Yes",
+    "confidence": "High",
+    "reasons": [
+      "Apple's Q2 2024 results, reported in May, showed revenue of $90.8 billion, exceeding expectations.",
+      "The company reported a quarterly earnings per diluted share of $1.53, also surpassing analyst estimates.",
+      "While iPhone revenue was slightly down, growth in Services and other product categories helped offset the decline and maintain overall profitability."
+    ],
+    "citations": [
+      {
+        "url": "https://www.apple.com/newsroom/2024/05/apple-reports-second-quarter-results/",
+        "title": "Apple Reports Second Quarter Results",
+        "published_at": "2024-05-02T20:30:00-07:00",
+        "snippet": "Apple today announced financial results for its second fiscal quarter ended March 30, 2024. The Company posted quarterly revenue of $90.8 billion, down 4 percent year over year, and quarterly earnings per diluted share of $1.53."
+      },
+      {
+        "url": "https://www.cnbc.com/2024/05/02/apple-aapl-earnings-q2-2024.html",
+        "title": "Apple (AAPL) Q2 2024 earnings: Revenue beats estimates, buyback announced",
+        "published_at": "2024-05-02T20:30:54-04:00",
+        "snippet": "Here's how Apple did versus Refinitiv consensus expectations: EPS: $1.53 vs $1.50 expected. Revenue: $90.75 billion vs $90.01 billion expected."
+      }
+    ]
+  },
+  "q3": {
+    "rec": "NoneObserved",
+    "confidence": "High",
+    "reasons": [
+      "Recent news searches do not indicate any significant negative management changes or departures.",
+      "Guidance for the next quarter was not overtly negative during the latest earnings call. While they didn't provide specific revenue guidance, the tone was cautiously optimistic.",
+      "No major restructuring announcements or significantly negative forward-looking statements have been observed in recent news."
+    ],
+    "citations": [
+      {
+        "url": "https://www.apple.com/newsroom/2024/05/apple-reports-second-quarter-results/",
+        "title": "Apple Reports Second Quarter Results",
+        "published_at": "2024-05-02T20:30:00-07:00",
+        "snippet": "Apple today announced financial results for its second fiscal quarter ended March 30, 2024."
+      },
+      {
+        "url": "https://www.cnbc.com/2024/05/02/apple-aapl-earnings-q2-2024.html",
+        "title": "Apple (AAPL) Q2 2024 earnings: Revenue beats estimates, buyback announced",
+        "published_at": "2024-05-02T20:30:54-04:00",
+        "snippet": "Apple's CFO Luca Maestri said on the earnings call that the company expects revenue to grow in the 'low-single digits' for the current quarter."
+      }
+    ]
+  },
+  "q4": {
+    "rec": "LikelySupport",
+    "confidence": "Medium",
+    "reasons": [
+      "The technical context indicates that the current price is near the 200-day moving average, which often acts as a support level.",
+      "The price is also within the defined support zone of [225.95, 226.65, 226.97].",
+      "An RSI of 40 suggests the stock is not yet oversold but is approaching oversold territory, increasing the likelihood of finding support."
+    ],
+    "citations": [
+      {
+        "url": "https://www.tradingview.com/symbols/NASDAQ-AAPL/",
+        "title": "AAPL Stock Price and Chart \u2014 NASDAQ:AAPL \u2014 TradingView",
+        "published_at": null,
+        "snippet": "Check live AAPL stock price, chart and analysis. ... RSI. 48.49. Momentum. \u22123.728M. Volume. 54.216M. Change. \u22120.91%. Summary. Neutral. Moving Averages."
+      },
+      {
+        "url": "https://www.marketbeat.com/stocks/NASDAQ/AAPL/",
+        "title": "Apple (NASDAQ:AAPL) Stock Price, News, Quote & History - MarketBeat",
+        "published_at": null,
+        "snippet": "Is Apple a good dividend stock? ... Based on an average daily volume of 44,880,000 shares, the stock's average number of days to cover short positions is presently 2.2 days."
+      }
+    ]
+  },
+  "summary": "Apple's recent dip appears to be driven by company-specific concerns, such as weaker iPhone demand in China and increased regulatory scrutiny, despite the revenue and profit figures remaining intact. While the company reported strong earnings and beat expectations, concerns about future growth persist.  The stock is trading near its 200-day moving average and a defined support zone, which may provide a floor. No negative management changes have been observed recently. Overall, the dip warrants further investigation given the mixed signals; solid earnings are contrasted by demand concerns.",
+  "generated_at": "2025-11-21T22:58:56.067511",
+  "model_version": "gemini-2.0-flash-grounded-v1",
+  "cache_key": "fundamentals:AAPL:202511212258"
+}

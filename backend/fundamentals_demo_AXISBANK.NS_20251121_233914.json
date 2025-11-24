@@ -1,0 +1,98 @@
+{
+  "q1": {
+    "rec": "CompanySpecific",
+    "confidence": "Medium",
+    "reasons": [
+      "Axis Bank has recently been in the news regarding stake sales and has shown varied stock performance.",
+      "Recent news focuses on Axis Bank's specific financial activities and market position rather than broad macroeconomic factors or sector-wide trends.",
+      "The stock's recent performance is tied to Axis Bank's strategic decisions and market reactions to those decisions."
+    ],
+    "citations": [
+      {
+        "url": "https://www.livemint.com/market/stock-market-news/tata-steel-sbin-among-10-stocks-that-mutual-funds-sold-in-april-axis-bank-hdfc-life-in-radar-11716970585466.html",
+        "title": "Tata Steel, SBIN among 10 stocks that mutual funds sold in April; Axis Bank, HDFC Life in radar",
+        "published_at": "2024-05-29T05:01:00+00:00",
+        "snippet": "Among the stocks that saw complete exit of mutual funds include names like Tata Steel, SBI, IDFC First Bank, Samvardhana Motherson, and Bharat Forge. Stocks such as Axis Bank, HDFC Life Insurance Company, ICICI Prudential Life Insurance Company, and DLF saw some stake sale by mutual funds in the month of April, data showed."
+      },
+      {
+        "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-the-news-infosys-tcs-jio-financial-vedanta-adani-ports-nhpc/articleshow/110581291.cms",
+        "title": "Stocks in the news: Infosys, TCS, Jio Financial, Vedanta, Adani Ports, NHPC - Economic Times",
+        "published_at": "2024-05-15T04:06:24+00:00",
+        "snippet": "Axis Bank: The private lender is looking to sell its 9.92% stake in financial services firm Max Life Insurance to increase its profit. The Board of the bank has already approved the proposal."
+      }
+    ]
+  },
+  "q2": {
+    "rec": "Yes",
+    "confidence": "High",
+    "reasons": [
+      "Axis Bank reported a net profit of \u20b97,130 crore for Q4FY24, showcasing a strong financial performance.",
+      "The bank's asset quality improved, with the gross NPA ratio declining to 1.43% and the net NPA ratio at 0.31%, indicating healthy financial stability.",
+      "Axis Bank's Q4 results reflect positive financial health, marked by substantial profit and improvements in asset quality."
+    ],
+    "citations": [
+      {
+        "url": "https://www.axisbank.com/docs/default-source/default-document-library/investor-relation/financial-results/2023-24/axis-bank-4qfy24-investor-presentation.pdf",
+        "title": "Axis Bank 4QFY24 Investor Presentation",
+        "published_at": null,
+        "snippet": "Axis Bank. 4QFY24. Investor Presentation. April 2024 ... Profit & Loss Statement. Balance Sheet. Business Highlights. Key Ratios. Business Performance."
+      },
+      {
+        "url": "https://www.business-standard.com/companies/financial-services/axis-bank-q4-net-profit-rises-to-rs-7-130-cr-asset-quality-improves-124042900678_1.html",
+        "title": "Axis Bank Q4 net profit rises to Rs 7,130 cr, asset quality improves",
+        "published_at": "2024-04-29T07:33:00+00:00",
+        "snippet": "Axis Bank on Friday reported a net profit of Rs 7,130 crore for the quarter ended March 2024 (Q4FY24). This compares with a loss of Rs 5,728 crore in the year-ago period (Q4FY23). Net interest income (NII) grew 11.5 per cent year-on-year (Y-o-Y) to Rs 13,089 crore in Q4FY24, the bank said in a regulatory filing."
+      }
+    ]
+  },
+  "q3": {
+    "rec": "NoneObserved",
+    "confidence": "High",
+    "reasons": [
+      "Recent news and corporate announcements do not indicate any negative guidance from Axis Bank's management.",
+      "There have been no significant reports of key management exits that would negatively impact investor confidence.",
+      "Axis Bank's strategic activities, such as potential stake sales, do not inherently signal negative guidance or instability."
+    ],
+    "citations": [
+      {
+        "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-the-news-infosys-tcs-jio-financial-vedanta-adani-ports-nhpc/articleshow/110581291.cms",
+        "title": "Stocks in the news: Infosys, TCS, Jio Financial, Vedanta, Adani Ports, NHPC - Economic Times",
+        "published_at": "2024-05-15T04:06:24+00:00",
+        "snippet": "Axis Bank: The private lender is looking to sell its 9.92% stake in financial services firm Max Life Insurance to increase its profit. The Board of the bank has already approved the proposal."
+      },
+      {
+        "url": "https://www.livemint.com/market/stock-market-news/tata-steel-sbin-among-10-stocks-that-mutual-funds-sold-in-april-axis-bank-hdfc-life-in-radar-11716970585466.html",
+        "title": "Tata Steel, SBIN among 10 stocks that mutual funds sold in April; Axis Bank, HDFC Life in radar",
+        "published_at": "2024-05-29T05:01:00+00:00",
+        "snippet": "Stocks such as Axis Bank, HDFC Life Insurance Company, ICICI Prudential Life Insurance Company, and DLF saw some stake sale by mutual funds in the month of April, data showed."
+      }
+    ]
+  },
+  "q4": {
+    "rec": "LikelySupport",
+    "confidence": "Medium",
+    "reasons": [
+      "The technical context indicates a support zone between 1042.5 and 1047.0.",
+      "Considering the current trading range, the stock price is relatively near this support zone.",
+      "Being near the 200-DMA further reinforces the possibility of support."
+    ],
+    "citations": [
+      {
+        "url": "https://www.moneycontrol.com/technical-analysis/axisbank/AXISBANK/daily",
+        "title": "Axis Bank Ltd Technical Analysis - Moneycontrol",
+        "published_at": null,
+        "snippet": "Axis Bank Ltd. - Technical Analysis. NSE:AXISBANK. Summary. Indicator. Signal. RSI (14). 72.0. Overbought. MACD (12, 26). 13.0. Buy. ADX (14). 24.4. Neutral. Ultimate Oscillator. 58.6. Neutral. ROC. 4.5. Buy. Williams %R. -28.5. Neutral. CCI (14). 96.0. Buy."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=SROV9g7H8z8",
+        "title": "Axis bank share latest news | Stock will give amazing return !!",
+        "published_at": null,
+        "snippet": "Axis bank share latest news | Stock will give amazing return !! 103 views \u00b7 3 weeks ago ...more. The Share Adda. 7.53K. Subscribe. Comments."
+      }
+    ]
+  },
+  "summary": "Axis Bank's recent dip appears to be more related to company-specific activities such as stake sales and market reactions to these decisions rather than broad macro or sector downturns. The company's earnings remain resilient, with a strong Q4 net profit and improvements in asset quality. Management guidance appears stable, with no recent negative news or key management exits. Technically, the stock is near a support zone which may provide a floor. It is important to monitor upcoming news about stake sales, sector performance and overall market trends.",
+  "generated_at": "2025-11-21T23:39:14.312676",
+  "model_version": "gemini-2.0-flash-grounded-v1",
+  "cache_key": "fundamentals:AXISBANK.NS:202511212339"
+}

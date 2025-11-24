@@ -1,0 +1,973 @@
+INFO:     Will watch for changes in these directories: ['/Users/swarnabha.saha/diplens-v2/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [22086] using WatchFiles
+Warning: Redis not available, running without cache
+INFO:     Started server process [22095]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2025-11-21 12:21:26,820 - app.providers.nse - INFO - Fetching NSE data for RELIANCE from 21-11-2024 to 21-11-2025
+2025-11-21 12:21:26,820 - root - INFO - Starting Date: 2024-11-21 00:00:00
+2025-11-21 12:21:26,820 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:21:26,820 - root - INFO - Total Number of Days: 365
+2025-11-21 12:21:26,820 - root - INFO - Total FOR Loops in the program: 9
+2025-11-21 12:21:26,820 - root - INFO - Remainder Loop: 5
+2025-11-21 12:21:26,822 - root - INFO - Loop = 0
+2025-11-21 12:21:26,822 - root - INFO - ====
+2025-11-21 12:21:26,822 - root - INFO - Starting Date: 21-11-2024
+2025-11-21 12:21:26,822 - root - INFO - Ending Date: 31-12-2024
+2025-11-21 12:21:26,822 - root - INFO - ====
+2025-11-21 12:21:27,443 - root - INFO - Length of the Table: 28
+2025-11-21 12:21:27,443 - root - INFO - Loop = 1
+2025-11-21 12:21:27,443 - root - INFO - ====
+2025-11-21 12:21:27,443 - root - INFO - Starting Date: 31-12-2024
+2025-11-21 12:21:27,443 - root - INFO - Ending Date: 09-02-2025
+2025-11-21 12:21:27,443 - root - INFO - ====
+2025-11-21 12:21:27,925 - root - INFO - Length of the Table: 58
+2025-11-21 12:21:27,925 - root - INFO - Loop = 2
+2025-11-21 12:21:27,925 - root - INFO - ====
+2025-11-21 12:21:27,925 - root - INFO - Starting Date: 09-02-2025
+2025-11-21 12:21:27,925 - root - INFO - Ending Date: 21-03-2025
+2025-11-21 12:21:27,925 - root - INFO - ====
+2025-11-21 12:21:29,425 - root - INFO - Length of the Table: 86
+2025-11-21 12:21:29,425 - root - INFO - Loop = 3
+2025-11-21 12:21:29,425 - root - INFO - ====
+2025-11-21 12:21:29,425 - root - INFO - Starting Date: 21-03-2025
+2025-11-21 12:21:29,425 - root - INFO - Ending Date: 30-04-2025
+2025-11-21 12:21:29,425 - root - INFO - ====
+2025-11-21 12:21:29,847 - root - INFO - Length of the Table: 111
+2025-11-21 12:21:29,847 - root - INFO - Loop = 4
+2025-11-21 12:21:29,847 - root - INFO - ====
+2025-11-21 12:21:29,847 - root - INFO - Starting Date: 30-04-2025
+2025-11-21 12:21:29,847 - root - INFO - Ending Date: 09-06-2025
+2025-11-21 12:21:29,847 - root - INFO - ====
+2025-11-21 12:21:30,267 - root - INFO - Length of the Table: 139
+2025-11-21 12:21:30,267 - root - INFO - Loop = 5
+2025-11-21 12:21:30,267 - root - INFO - ====
+2025-11-21 12:21:30,268 - root - INFO - Starting Date: 09-06-2025
+2025-11-21 12:21:30,268 - root - INFO - Ending Date: 19-07-2025
+2025-11-21 12:21:30,268 - root - INFO - ====
+2025-11-21 12:21:30,938 - root - INFO - Length of the Table: 169
+2025-11-21 12:21:30,939 - root - INFO - Loop = 6
+2025-11-21 12:21:30,939 - root - INFO - ====
+2025-11-21 12:21:30,939 - root - INFO - Starting Date: 19-07-2025
+2025-11-21 12:21:30,939 - root - INFO - Ending Date: 28-08-2025
+2025-11-21 12:21:30,939 - root - INFO - ====
+2025-11-21 12:21:41,235 - app.providers.nse - ERROR - NSE fetch failed for RELIANCE.NS: HTTPSConnectionPool(host='www.nseindia.com', port=443): Read timed out. (read timeout=10)
+2025-11-21 12:21:41,235 - app.providers.alphavantage - WARNING - Alpha Vantage free tier doesn't support Indian stocks: RELIANCE.NS
+2025-11-21 12:21:41,235 - app.providers.alphavantage - INFO - Suggestion: Try US stocks (AAPL, MSFT, GOOGL) or upgrade to Alpha Vantage premium
+Warning: Redis not available, running without cache
+Skipping Yahoo for RELIANCE.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for RELIANCE.NS, trying NSE provider...
+Trying Alpha Vantage for RELIANCE.NS...
+INFO:     127.0.0.1:55475 - "GET /stock/RELIANCE.NS/full-analysis HTTP/1.1" 404 Not Found
+2025-11-21 12:22:16,408 - app.providers.nse - INFO - Fetching NSE data for RELIANCE from 21-11-2024 to 21-11-2025
+2025-11-21 12:22:16,408 - root - INFO - Starting Date: 2024-11-21 00:00:00
+2025-11-21 12:22:16,408 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:22:16,408 - root - INFO - Total Number of Days: 365
+2025-11-21 12:22:16,408 - root - INFO - Total FOR Loops in the program: 9
+2025-11-21 12:22:16,408 - root - INFO - Remainder Loop: 5
+2025-11-21 12:22:16,423 - root - INFO - Loop = 0
+2025-11-21 12:22:16,423 - root - INFO - ====
+2025-11-21 12:22:16,423 - root - INFO - Starting Date: 21-11-2024
+2025-11-21 12:22:16,423 - root - INFO - Ending Date: 31-12-2024
+2025-11-21 12:22:16,423 - root - INFO - ====
+2025-11-21 12:22:18,394 - root - INFO - Length of the Table: 28
+2025-11-21 12:22:18,394 - root - INFO - Loop = 1
+2025-11-21 12:22:18,394 - root - INFO - ====
+2025-11-21 12:22:18,394 - root - INFO - Starting Date: 31-12-2024
+2025-11-21 12:22:18,394 - root - INFO - Ending Date: 09-02-2025
+2025-11-21 12:22:18,394 - root - INFO - ====
+2025-11-21 12:22:19,230 - root - INFO - Length of the Table: 58
+2025-11-21 12:22:19,231 - root - INFO - Loop = 2
+2025-11-21 12:22:19,231 - root - INFO - ====
+2025-11-21 12:22:19,231 - root - INFO - Starting Date: 09-02-2025
+2025-11-21 12:22:19,231 - root - INFO - Ending Date: 21-03-2025
+2025-11-21 12:22:19,231 - root - INFO - ====
+2025-11-21 12:22:20,117 - root - INFO - Length of the Table: 86
+2025-11-21 12:22:20,117 - root - INFO - Loop = 3
+2025-11-21 12:22:20,117 - root - INFO - ====
+2025-11-21 12:22:20,117 - root - INFO - Starting Date: 21-03-2025
+2025-11-21 12:22:20,117 - root - INFO - Ending Date: 30-04-2025
+2025-11-21 12:22:20,117 - root - INFO - ====
+2025-11-21 12:22:20,542 - root - INFO - Length of the Table: 111
+2025-11-21 12:22:20,542 - root - INFO - Loop = 4
+2025-11-21 12:22:20,542 - root - INFO - ====
+2025-11-21 12:22:20,542 - root - INFO - Starting Date: 30-04-2025
+2025-11-21 12:22:20,542 - root - INFO - Ending Date: 09-06-2025
+2025-11-21 12:22:20,542 - root - INFO - ====
+2025-11-21 12:22:20,829 - root - INFO - Length of the Table: 139
+2025-11-21 12:22:20,829 - root - INFO - Loop = 5
+2025-11-21 12:22:20,829 - root - INFO - ====
+2025-11-21 12:22:20,829 - root - INFO - Starting Date: 09-06-2025
+2025-11-21 12:22:20,829 - root - INFO - Ending Date: 19-07-2025
+2025-11-21 12:22:20,829 - root - INFO - ====
+2025-11-21 12:22:21,202 - root - INFO - Length of the Table: 169
+2025-11-21 12:22:21,202 - root - INFO - Loop = 6
+2025-11-21 12:22:21,202 - root - INFO - ====
+2025-11-21 12:22:21,202 - root - INFO - Starting Date: 19-07-2025
+2025-11-21 12:22:21,202 - root - INFO - Ending Date: 28-08-2025
+2025-11-21 12:22:21,202 - root - INFO - ====
+2025-11-21 12:22:23,731 - root - INFO - Length of the Table: 196
+2025-11-21 12:22:23,731 - root - INFO - Loop = 7
+2025-11-21 12:22:23,731 - root - INFO - ====
+2025-11-21 12:22:23,732 - root - INFO - Starting Date: 28-08-2025
+2025-11-21 12:22:23,732 - root - INFO - Ending Date: 07-10-2025
+2025-11-21 12:22:23,732 - root - INFO - ====
+2025-11-21 12:22:26,199 - root - INFO - Length of the Table: 224
+2025-11-21 12:22:26,199 - root - INFO - Loop = 8
+2025-11-21 12:22:26,199 - root - INFO - ====
+2025-11-21 12:22:26,199 - root - INFO - Starting Date: 07-10-2025
+2025-11-21 12:22:26,199 - root - INFO - Ending Date: 16-11-2025
+2025-11-21 12:22:26,199 - root - INFO - ====
+2025-11-21 12:22:26,627 - root - INFO - Length of the Table: 251
+2025-11-21 12:22:26,627 - root - INFO - End Loop
+2025-11-21 12:22:26,627 - root - INFO - ====
+2025-11-21 12:22:26,627 - root - INFO - Starting Date: 16-11-2025
+2025-11-21 12:22:26,627 - root - INFO - Ending Date: 21-11-2025
+2025-11-21 12:22:26,627 - root - INFO - ====
+2025-11-21 12:22:27,021 - root - INFO - Finale
+2025-11-21 12:22:27,021 - root - INFO - Length of the Total Dataset: 255
+2025-11-21 12:22:27,872 - app.providers.nse - INFO - Added live quote for RELIANCE: 1549.9 at 21-Nov-2025 12:21:20
+2025-11-21 12:22:27,872 - app.providers.nse - INFO - NSE returned 256 bars for RELIANCE
+Skipping Yahoo for RELIANCE.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for RELIANCE.NS, trying NSE provider...
+✓ NSE provided 256 bars for RELIANCE.NS
+INFO:     127.0.0.1:55571 - "GET /stock/RELIANCE.NS/full-analysis HTTP/1.1" 200 OK
+2025-11-21 12:23:15,044 - app.providers.nse - INFO - Fetching NSE data for RELIANCE from 21-11-2024 to 21-11-2025
+2025-11-21 12:23:15,047 - root - INFO - Starting Date: 2024-11-21 00:00:00
+2025-11-21 12:23:15,047 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:23:15,047 - root - INFO - Total Number of Days: 365
+2025-11-21 12:23:15,047 - root - INFO - Total FOR Loops in the program: 9
+2025-11-21 12:23:15,047 - root - INFO - Remainder Loop: 5
+2025-11-21 12:23:15,069 - root - INFO - Loop = 0
+2025-11-21 12:23:15,069 - root - INFO - ====
+2025-11-21 12:23:15,069 - root - INFO - Starting Date: 21-11-2024
+2025-11-21 12:23:15,069 - root - INFO - Ending Date: 31-12-2024
+2025-11-21 12:23:15,069 - root - INFO - ====
+2025-11-21 12:23:20,609 - root - INFO - Length of the Table: 28
+2025-11-21 12:23:20,609 - root - INFO - Loop = 1
+2025-11-21 12:23:20,609 - root - INFO - ====
+2025-11-21 12:23:20,609 - root - INFO - Starting Date: 31-12-2024
+2025-11-21 12:23:20,609 - root - INFO - Ending Date: 09-02-2025
+2025-11-21 12:23:20,609 - root - INFO - ====
+2025-11-21 12:23:25,169 - root - INFO - Length of the Table: 58
+2025-11-21 12:23:25,170 - root - INFO - Loop = 2
+2025-11-21 12:23:25,170 - root - INFO - ====
+2025-11-21 12:23:25,170 - root - INFO - Starting Date: 09-02-2025
+2025-11-21 12:23:25,170 - root - INFO - Ending Date: 21-03-2025
+2025-11-21 12:23:25,170 - root - INFO - ====
+2025-11-21 12:23:25,846 - root - INFO - Length of the Table: 86
+2025-11-21 12:23:25,847 - root - INFO - Loop = 3
+2025-11-21 12:23:25,847 - root - INFO - ====
+2025-11-21 12:23:25,847 - root - INFO - Starting Date: 21-03-2025
+2025-11-21 12:23:25,847 - root - INFO - Ending Date: 30-04-2025
+2025-11-21 12:23:25,847 - root - INFO - ====
+2025-11-21 12:23:26,297 - root - INFO - Length of the Table: 111
+2025-11-21 12:23:26,297 - root - INFO - Loop = 4
+2025-11-21 12:23:26,297 - root - INFO - ====
+2025-11-21 12:23:26,297 - root - INFO - Starting Date: 30-04-2025
+2025-11-21 12:23:26,297 - root - INFO - Ending Date: 09-06-2025
+2025-11-21 12:23:26,297 - root - INFO - ====
+2025-11-21 12:23:27,043 - root - INFO - Length of the Table: 139
+2025-11-21 12:23:27,043 - root - INFO - Loop = 5
+2025-11-21 12:23:27,043 - root - INFO - ====
+2025-11-21 12:23:27,043 - root - INFO - Starting Date: 09-06-2025
+2025-11-21 12:23:27,043 - root - INFO - Ending Date: 19-07-2025
+2025-11-21 12:23:27,043 - root - INFO - ====
+2025-11-21 12:23:27,526 - root - INFO - Length of the Table: 169
+2025-11-21 12:23:27,526 - root - INFO - Loop = 6
+2025-11-21 12:23:27,526 - root - INFO - ====
+2025-11-21 12:23:27,526 - root - INFO - Starting Date: 19-07-2025
+2025-11-21 12:23:27,527 - root - INFO - Ending Date: 28-08-2025
+2025-11-21 12:23:27,527 - root - INFO - ====
+2025-11-21 12:23:28,030 - root - INFO - Length of the Table: 196
+2025-11-21 12:23:28,030 - root - INFO - Loop = 7
+2025-11-21 12:23:28,030 - root - INFO - ====
+2025-11-21 12:23:28,030 - root - INFO - Starting Date: 28-08-2025
+2025-11-21 12:23:28,030 - root - INFO - Ending Date: 07-10-2025
+2025-11-21 12:23:28,030 - root - INFO - ====
+2025-11-21 12:23:28,727 - root - INFO - Length of the Table: 224
+2025-11-21 12:23:28,727 - root - INFO - Loop = 8
+2025-11-21 12:23:28,727 - root - INFO - ====
+2025-11-21 12:23:28,727 - root - INFO - Starting Date: 07-10-2025
+2025-11-21 12:23:28,727 - root - INFO - Ending Date: 16-11-2025
+2025-11-21 12:23:28,727 - root - INFO - ====
+2025-11-21 12:23:29,057 - root - INFO - Length of the Table: 251
+2025-11-21 12:23:29,058 - root - INFO - End Loop
+2025-11-21 12:23:29,058 - root - INFO - ====
+2025-11-21 12:23:29,058 - root - INFO - Starting Date: 16-11-2025
+2025-11-21 12:23:29,058 - root - INFO - Ending Date: 21-11-2025
+2025-11-21 12:23:29,058 - root - INFO - ====
+2025-11-21 12:23:29,519 - root - INFO - Finale
+2025-11-21 12:23:29,519 - root - INFO - Length of the Total Dataset: 255
+2025-11-21 12:23:30,448 - app.providers.nse - INFO - Added live quote for RELIANCE: 1549.9 at 21-Nov-2025 12:22:50
+2025-11-21 12:23:30,448 - app.providers.nse - INFO - NSE returned 256 bars for RELIANCE
+Skipping Yahoo for RELIANCE.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for RELIANCE.NS, trying NSE provider...
+✓ NSE provided 256 bars for RELIANCE.NS
+INFO:     127.0.0.1:55708 - "GET /stock/RELIANCE.NS/full-analysis?lookback=1y HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56302 - "OPTIONS /scores/RELIANCE.NS/checklist HTTP/1.1" 200 OK
+2025-11-21 12:29:50,840 - app.providers.nse - INFO - Fetching NSE data for RELIANCE from 22-11-2023 to 21-11-2025
+2025-11-21 12:29:50,841 - root - INFO - Starting Date: 2023-11-22 00:00:00
+2025-11-21 12:29:50,841 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:29:50,841 - root - INFO - Total Number of Days: 730
+2025-11-21 12:29:50,841 - root - INFO - Total FOR Loops in the program: 18
+2025-11-21 12:29:50,841 - root - INFO - Remainder Loop: 10
+2025-11-21 12:29:50,846 - root - INFO - Loop = 0
+2025-11-21 12:29:50,846 - root - INFO - ====
+2025-11-21 12:29:50,846 - root - INFO - Starting Date: 22-11-2023
+2025-11-21 12:29:50,846 - root - INFO - Ending Date: 01-01-2024
+2025-11-21 12:29:50,846 - root - INFO - ====
+2025-11-21 12:29:51,313 - root - INFO - Length of the Table: 27
+2025-11-21 12:29:51,313 - root - INFO - Loop = 1
+2025-11-21 12:29:51,313 - root - INFO - ====
+2025-11-21 12:29:51,313 - root - INFO - Starting Date: 01-01-2024
+2025-11-21 12:29:51,313 - root - INFO - Ending Date: 10-02-2024
+2025-11-21 12:29:51,313 - root - INFO - ====
+2025-11-21 12:29:51,715 - root - INFO - Length of the Table: 56
+2025-11-21 12:29:51,715 - root - INFO - Loop = 2
+2025-11-21 12:29:51,715 - root - INFO - ====
+2025-11-21 12:29:51,715 - root - INFO - Starting Date: 10-02-2024
+2025-11-21 12:29:51,715 - root - INFO - Ending Date: 21-03-2024
+2025-11-21 12:29:51,715 - root - INFO - ====
+2025-11-21 12:29:52,088 - root - INFO - Length of the Table: 85
+2025-11-21 12:29:52,088 - root - INFO - Loop = 3
+2025-11-21 12:29:52,088 - root - INFO - ====
+2025-11-21 12:29:52,088 - root - INFO - Starting Date: 21-03-2024
+2025-11-21 12:29:52,088 - root - INFO - Ending Date: 30-04-2024
+2025-11-21 12:29:52,088 - root - INFO - ====
+2025-11-21 12:29:52,550 - root - INFO - Length of the Table: 110
+2025-11-21 12:29:52,550 - root - INFO - Loop = 4
+2025-11-21 12:29:52,550 - root - INFO - ====
+2025-11-21 12:29:52,550 - root - INFO - Starting Date: 30-04-2024
+2025-11-21 12:29:52,550 - root - INFO - Ending Date: 09-06-2024
+2025-11-21 12:29:52,550 - root - INFO - ====
+2025-11-21 12:29:52,952 - root - INFO - Length of the Table: 138
+2025-11-21 12:29:52,953 - root - INFO - Loop = 5
+2025-11-21 12:29:52,953 - root - INFO - ====
+2025-11-21 12:29:52,953 - root - INFO - Starting Date: 09-06-2024
+2025-11-21 12:29:52,953 - root - INFO - Ending Date: 19-07-2024
+2025-11-21 12:29:52,953 - root - INFO - ====
+2025-11-21 12:29:53,305 - root - INFO - Length of the Table: 166
+2025-11-21 12:29:53,305 - root - INFO - Loop = 6
+2025-11-21 12:29:53,305 - root - INFO - ====
+2025-11-21 12:29:53,305 - root - INFO - Starting Date: 19-07-2024
+2025-11-21 12:29:53,305 - root - INFO - Ending Date: 28-08-2024
+2025-11-21 12:29:53,305 - root - INFO - ====
+2025-11-21 12:29:54,901 - root - INFO - Length of the Table: 194
+2025-11-21 12:29:54,901 - root - INFO - Loop = 7
+2025-11-21 12:29:54,901 - root - INFO - ====
+2025-11-21 12:29:54,901 - root - INFO - Starting Date: 28-08-2024
+2025-11-21 12:29:54,901 - root - INFO - Ending Date: 07-10-2024
+2025-11-21 12:29:54,901 - root - INFO - ====
+2025-11-21 12:29:55,312 - root - INFO - Length of the Table: 222
+2025-11-21 12:29:55,312 - root - INFO - Loop = 8
+2025-11-21 12:29:55,312 - root - INFO - ====
+2025-11-21 12:29:55,312 - root - INFO - Starting Date: 07-10-2024
+2025-11-21 12:29:55,312 - root - INFO - Ending Date: 16-11-2024
+2025-11-21 12:29:55,312 - root - INFO - ====
+2025-11-21 12:29:55,690 - root - INFO - Length of the Table: 251
+2025-11-21 12:29:55,690 - root - INFO - Loop = 9
+2025-11-21 12:29:55,690 - root - INFO - ====
+2025-11-21 12:29:55,690 - root - INFO - Starting Date: 16-11-2024
+2025-11-21 12:29:55,690 - root - INFO - Ending Date: 26-12-2024
+2025-11-21 12:29:55,690 - root - INFO - ====
+2025-11-21 12:29:56,114 - root - INFO - Length of the Table: 278
+2025-11-21 12:29:56,114 - root - INFO - Loop = 10
+2025-11-21 12:29:56,114 - root - INFO - ====
+2025-11-21 12:29:56,114 - root - INFO - Starting Date: 26-12-2024
+2025-11-21 12:29:56,114 - root - INFO - Ending Date: 04-02-2025
+2025-11-21 12:29:56,114 - root - INFO - ====
+2025-11-21 12:29:56,480 - root - INFO - Length of the Table: 308
+2025-11-21 12:29:56,480 - root - INFO - Loop = 11
+2025-11-21 12:29:56,480 - root - INFO - ====
+2025-11-21 12:29:56,480 - root - INFO - Starting Date: 04-02-2025
+2025-11-21 12:29:56,480 - root - INFO - Ending Date: 16-03-2025
+2025-11-21 12:29:56,480 - root - INFO - ====
+2025-11-21 12:29:56,886 - root - INFO - Length of the Table: 335
+2025-11-21 12:29:56,886 - root - INFO - Loop = 12
+2025-11-21 12:29:56,886 - root - INFO - ====
+2025-11-21 12:29:56,886 - root - INFO - Starting Date: 16-03-2025
+2025-11-21 12:29:56,886 - root - INFO - Ending Date: 25-04-2025
+2025-11-21 12:29:56,887 - root - INFO - ====
+2025-11-21 12:29:57,234 - root - INFO - Length of the Table: 361
+2025-11-21 12:29:57,234 - root - INFO - Loop = 13
+2025-11-21 12:29:57,234 - root - INFO - ====
+2025-11-21 12:29:57,234 - root - INFO - Starting Date: 25-04-2025
+2025-11-21 12:29:57,234 - root - INFO - Ending Date: 04-06-2025
+2025-11-21 12:29:57,234 - root - INFO - ====
+2025-11-21 12:29:57,609 - root - INFO - Length of the Table: 389
+2025-11-21 12:29:57,610 - root - INFO - Loop = 14
+2025-11-21 12:29:57,610 - root - INFO - ====
+2025-11-21 12:29:57,610 - root - INFO - Starting Date: 04-06-2025
+2025-11-21 12:29:57,610 - root - INFO - Ending Date: 14-07-2025
+2025-11-21 12:29:57,610 - root - INFO - ====
+2025-11-21 12:29:58,166 - root - INFO - Length of the Table: 418
+2025-11-21 12:29:58,166 - root - INFO - Loop = 15
+2025-11-21 12:29:58,166 - root - INFO - ====
+2025-11-21 12:29:58,166 - root - INFO - Starting Date: 14-07-2025
+2025-11-21 12:29:58,166 - root - INFO - Ending Date: 23-08-2025
+2025-11-21 12:29:58,166 - root - INFO - ====
+2025-11-21 12:30:00,828 - root - INFO - Length of the Table: 447
+2025-11-21 12:30:00,828 - root - INFO - Loop = 16
+2025-11-21 12:30:00,828 - root - INFO - ====
+2025-11-21 12:30:00,828 - root - INFO - Starting Date: 23-08-2025
+2025-11-21 12:30:00,828 - root - INFO - Ending Date: 02-10-2025
+2025-11-21 12:30:00,828 - root - INFO - ====
+2025-11-21 12:30:01,193 - root - INFO - Length of the Table: 474
+2025-11-21 12:30:01,194 - root - INFO - Loop = 17
+2025-11-21 12:30:01,194 - root - INFO - ====
+2025-11-21 12:30:01,194 - root - INFO - Starting Date: 02-10-2025
+2025-11-21 12:30:01,194 - root - INFO - Ending Date: 11-11-2025
+2025-11-21 12:30:01,194 - root - INFO - ====
+2025-11-21 12:30:03,867 - root - INFO - Length of the Table: 500
+2025-11-21 12:30:03,867 - root - INFO - End Loop
+2025-11-21 12:30:03,867 - root - INFO - ====
+2025-11-21 12:30:03,867 - root - INFO - Starting Date: 11-11-2025
+2025-11-21 12:30:03,867 - root - INFO - Ending Date: 21-11-2025
+2025-11-21 12:30:03,867 - root - INFO - ====
+2025-11-21 12:30:06,666 - root - INFO - Finale
+2025-11-21 12:30:06,666 - root - INFO - Length of the Total Dataset: 508
+2025-11-21 12:30:07,393 - app.providers.nse - INFO - Added live quote for RELIANCE: 1553.4 at 21-Nov-2025 12:28:19
+2025-11-21 12:30:07,393 - app.providers.nse - INFO - NSE returned 509 bars for RELIANCE
+Skipping Yahoo for RELIANCE.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for RELIANCE.NS, trying NSE provider...
+✓ NSE provided 509 bars for RELIANCE.NS
+Error calculating pre-score for RELIANCE.NS: 'PreScore' object has no attribute 'score'
+INFO:     127.0.0.1:56302 - "POST /scores/RELIANCE.NS/checklist HTTP/1.1" 200 OK
+2025-11-21 12:30:33,198 - app.providers.nse - INFO - Fetching NSE data for RELIANCE from 21-11-2024 to 21-11-2025
+2025-11-21 12:30:33,204 - root - INFO - Starting Date: 2024-11-21 00:00:00
+2025-11-21 12:30:33,204 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:30:33,204 - root - INFO - Total Number of Days: 365
+2025-11-21 12:30:33,204 - root - INFO - Total FOR Loops in the program: 9
+2025-11-21 12:30:33,204 - root - INFO - Remainder Loop: 5
+2025-11-21 12:30:33,208 - root - INFO - Loop = 0
+2025-11-21 12:30:33,208 - root - INFO - ====
+2025-11-21 12:30:33,208 - root - INFO - Starting Date: 21-11-2024
+2025-11-21 12:30:33,209 - root - INFO - Ending Date: 31-12-2024
+2025-11-21 12:30:33,209 - root - INFO - ====
+2025-11-21 12:30:33,740 - root - INFO - Length of the Table: 28
+2025-11-21 12:30:33,740 - root - INFO - Loop = 1
+2025-11-21 12:30:33,741 - root - INFO - ====
+2025-11-21 12:30:33,741 - root - INFO - Starting Date: 31-12-2024
+2025-11-21 12:30:33,741 - root - INFO - Ending Date: 09-02-2025
+2025-11-21 12:30:33,741 - root - INFO - ====
+2025-11-21 12:30:34,176 - root - INFO - Length of the Table: 58
+2025-11-21 12:30:34,176 - root - INFO - Loop = 2
+2025-11-21 12:30:34,176 - root - INFO - ====
+2025-11-21 12:30:34,176 - root - INFO - Starting Date: 09-02-2025
+2025-11-21 12:30:34,176 - root - INFO - Ending Date: 21-03-2025
+2025-11-21 12:30:34,176 - root - INFO - ====
+2025-11-21 12:30:34,633 - root - INFO - Length of the Table: 86
+2025-11-21 12:30:34,634 - root - INFO - Loop = 3
+2025-11-21 12:30:34,634 - root - INFO - ====
+2025-11-21 12:30:34,634 - root - INFO - Starting Date: 21-03-2025
+2025-11-21 12:30:34,634 - root - INFO - Ending Date: 30-04-2025
+2025-11-21 12:30:34,634 - root - INFO - ====
+2025-11-21 12:30:35,401 - root - INFO - Length of the Table: 111
+2025-11-21 12:30:35,401 - root - INFO - Loop = 4
+2025-11-21 12:30:35,401 - root - INFO - ====
+2025-11-21 12:30:35,401 - root - INFO - Starting Date: 30-04-2025
+2025-11-21 12:30:35,401 - root - INFO - Ending Date: 09-06-2025
+2025-11-21 12:30:35,401 - root - INFO - ====
+2025-11-21 12:30:35,904 - root - INFO - Length of the Table: 139
+2025-11-21 12:30:35,904 - root - INFO - Loop = 5
+2025-11-21 12:30:35,904 - root - INFO - ====
+2025-11-21 12:30:35,904 - root - INFO - Starting Date: 09-06-2025
+2025-11-21 12:30:35,904 - root - INFO - Ending Date: 19-07-2025
+2025-11-21 12:30:35,904 - root - INFO - ====
+2025-11-21 12:30:36,860 - root - INFO - Length of the Table: 169
+2025-11-21 12:30:36,860 - root - INFO - Loop = 6
+2025-11-21 12:30:36,860 - root - INFO - ====
+2025-11-21 12:30:36,860 - root - INFO - Starting Date: 19-07-2025
+2025-11-21 12:30:36,860 - root - INFO - Ending Date: 28-08-2025
+2025-11-21 12:30:36,860 - root - INFO - ====
+2025-11-21 12:30:37,250 - root - INFO - Length of the Table: 196
+2025-11-21 12:30:37,251 - root - INFO - Loop = 7
+2025-11-21 12:30:37,251 - root - INFO - ====
+2025-11-21 12:30:37,251 - root - INFO - Starting Date: 28-08-2025
+2025-11-21 12:30:37,251 - root - INFO - Ending Date: 07-10-2025
+2025-11-21 12:30:37,251 - root - INFO - ====
+2025-11-21 12:30:37,689 - root - INFO - Length of the Table: 224
+2025-11-21 12:30:37,689 - root - INFO - Loop = 8
+2025-11-21 12:30:37,689 - root - INFO - ====
+2025-11-21 12:30:37,689 - root - INFO - Starting Date: 07-10-2025
+2025-11-21 12:30:37,689 - root - INFO - Ending Date: 16-11-2025
+2025-11-21 12:30:37,690 - root - INFO - ====
+2025-11-21 12:30:38,077 - root - INFO - Length of the Table: 251
+2025-11-21 12:30:38,077 - root - INFO - End Loop
+2025-11-21 12:30:38,077 - root - INFO - ====
+2025-11-21 12:30:38,077 - root - INFO - Starting Date: 16-11-2025
+2025-11-21 12:30:38,077 - root - INFO - Ending Date: 21-11-2025
+2025-11-21 12:30:38,077 - root - INFO - ====
+2025-11-21 12:30:38,453 - root - INFO - Finale
+2025-11-21 12:30:38,453 - root - INFO - Length of the Total Dataset: 255
+2025-11-21 12:30:39,284 - app.providers.nse - INFO - Added live quote for RELIANCE: 1553.4 at 21-Nov-2025 12:29:49
+2025-11-21 12:30:39,284 - app.providers.nse - INFO - NSE returned 256 bars for RELIANCE
+Skipping Yahoo for RELIANCE.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for RELIANCE.NS, trying NSE provider...
+✓ NSE provided 256 bars for RELIANCE.NS
+INFO:     127.0.0.1:56375 - "GET /stock/RELIANCE.NS/full-analysis?lookback=1y HTTP/1.1" 200 OK
+2025-11-21 12:30:46,081 - app.providers.nse - INFO - Fetching NSE data for PAYTM from 21-11-2024 to 21-11-2025
+2025-11-21 12:30:46,081 - root - INFO - Starting Date: 2024-11-21 00:00:00
+2025-11-21 12:30:46,081 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:30:46,081 - root - INFO - Total Number of Days: 365
+2025-11-21 12:30:46,081 - root - INFO - Total FOR Loops in the program: 9
+2025-11-21 12:30:46,081 - root - INFO - Remainder Loop: 5
+2025-11-21 12:30:46,082 - root - INFO - Loop = 0
+2025-11-21 12:30:46,082 - root - INFO - ====
+2025-11-21 12:30:46,082 - root - INFO - Starting Date: 21-11-2024
+2025-11-21 12:30:46,082 - root - INFO - Ending Date: 31-12-2024
+2025-11-21 12:30:46,082 - root - INFO - ====
+2025-11-21 12:30:48,863 - root - INFO - Length of the Table: 28
+2025-11-21 12:30:48,864 - root - INFO - Loop = 1
+2025-11-21 12:30:48,864 - root - INFO - ====
+2025-11-21 12:30:48,864 - root - INFO - Starting Date: 31-12-2024
+2025-11-21 12:30:48,864 - root - INFO - Ending Date: 09-02-2025
+2025-11-21 12:30:48,864 - root - INFO - ====
+2025-11-21 12:30:49,657 - root - INFO - Length of the Table: 58
+2025-11-21 12:30:49,657 - root - INFO - Loop = 2
+2025-11-21 12:30:49,657 - root - INFO - ====
+2025-11-21 12:30:49,657 - root - INFO - Starting Date: 09-02-2025
+2025-11-21 12:30:49,657 - root - INFO - Ending Date: 21-03-2025
+2025-11-21 12:30:49,657 - root - INFO - ====
+2025-11-21 12:30:50,033 - root - INFO - Length of the Table: 86
+2025-11-21 12:30:50,033 - root - INFO - Loop = 3
+2025-11-21 12:30:50,033 - root - INFO - ====
+2025-11-21 12:30:50,033 - root - INFO - Starting Date: 21-03-2025
+2025-11-21 12:30:50,033 - root - INFO - Ending Date: 30-04-2025
+2025-11-21 12:30:50,033 - root - INFO - ====
+2025-11-21 12:30:50,662 - root - INFO - Length of the Table: 111
+2025-11-21 12:30:50,663 - root - INFO - Loop = 4
+2025-11-21 12:30:50,663 - root - INFO - ====
+2025-11-21 12:30:50,663 - root - INFO - Starting Date: 30-04-2025
+2025-11-21 12:30:50,663 - root - INFO - Ending Date: 09-06-2025
+2025-11-21 12:30:50,663 - root - INFO - ====
+2025-11-21 12:30:51,044 - root - INFO - Length of the Table: 139
+2025-11-21 12:30:51,044 - root - INFO - Loop = 5
+2025-11-21 12:30:51,044 - root - INFO - ====
+2025-11-21 12:30:51,044 - root - INFO - Starting Date: 09-06-2025
+2025-11-21 12:30:51,044 - root - INFO - Ending Date: 19-07-2025
+2025-11-21 12:30:51,044 - root - INFO - ====
+2025-11-21 12:30:51,399 - root - INFO - Length of the Table: 169
+2025-11-21 12:30:51,399 - root - INFO - Loop = 6
+2025-11-21 12:30:51,399 - root - INFO - ====
+2025-11-21 12:30:51,399 - root - INFO - Starting Date: 19-07-2025
+2025-11-21 12:30:51,399 - root - INFO - Ending Date: 28-08-2025
+2025-11-21 12:30:51,399 - root - INFO - ====
+2025-11-21 12:30:51,724 - root - INFO - Length of the Table: 196
+2025-11-21 12:30:51,725 - root - INFO - Loop = 7
+2025-11-21 12:30:51,725 - root - INFO - ====
+2025-11-21 12:30:51,725 - root - INFO - Starting Date: 28-08-2025
+2025-11-21 12:30:51,725 - root - INFO - Ending Date: 07-10-2025
+2025-11-21 12:30:51,725 - root - INFO - ====
+2025-11-21 12:30:52,131 - root - INFO - Length of the Table: 224
+2025-11-21 12:30:52,132 - root - INFO - Loop = 8
+2025-11-21 12:30:52,132 - root - INFO - ====
+2025-11-21 12:30:52,132 - root - INFO - Starting Date: 07-10-2025
+2025-11-21 12:30:52,132 - root - INFO - Ending Date: 16-11-2025
+2025-11-21 12:30:52,132 - root - INFO - ====
+2025-11-21 12:30:52,589 - root - INFO - Length of the Table: 251
+2025-11-21 12:30:52,589 - root - INFO - End Loop
+2025-11-21 12:30:52,589 - root - INFO - ====
+2025-11-21 12:30:52,589 - root - INFO - Starting Date: 16-11-2025
+2025-11-21 12:30:52,589 - root - INFO - Ending Date: 21-11-2025
+2025-11-21 12:30:52,589 - root - INFO - ====
+2025-11-21 12:30:53,440 - root - INFO - Finale
+2025-11-21 12:30:53,440 - root - INFO - Length of the Total Dataset: 255
+2025-11-21 12:30:54,838 - app.providers.nse - INFO - Added live quote for PAYTM: 1268.2 at 21-Nov-2025 12:30:20
+2025-11-21 12:30:54,839 - app.providers.nse - INFO - NSE returned 256 bars for PAYTM
+Skipping Yahoo for PAYTM.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for PAYTM.NS, trying NSE provider...
+✓ NSE provided 256 bars for PAYTM.NS
+INFO:     127.0.0.1:56427 - "GET /stock/PAYTM.NS/full-analysis?lookback=1y HTTP/1.1" 200 OK
+2025-11-21 12:31:22,588 - app.providers.nse - INFO - Fetching NSE data for RELIANCE from 21-11-2024 to 21-11-2025
+2025-11-21 12:31:22,590 - root - INFO - Starting Date: 2024-11-21 00:00:00
+2025-11-21 12:31:22,590 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:31:22,590 - root - INFO - Total Number of Days: 365
+2025-11-21 12:31:22,590 - root - INFO - Total FOR Loops in the program: 9
+2025-11-21 12:31:22,590 - root - INFO - Remainder Loop: 5
+2025-11-21 12:31:22,593 - root - INFO - Loop = 0
+2025-11-21 12:31:22,593 - root - INFO - ====
+2025-11-21 12:31:22,593 - root - INFO - Starting Date: 21-11-2024
+2025-11-21 12:31:22,593 - root - INFO - Ending Date: 31-12-2024
+2025-11-21 12:31:22,593 - root - INFO - ====
+2025-11-21 12:31:23,153 - root - INFO - Length of the Table: 28
+2025-11-21 12:31:23,153 - root - INFO - Loop = 1
+2025-11-21 12:31:23,153 - root - INFO - ====
+2025-11-21 12:31:23,153 - root - INFO - Starting Date: 31-12-2024
+2025-11-21 12:31:23,153 - root - INFO - Ending Date: 09-02-2025
+2025-11-21 12:31:23,154 - root - INFO - ====
+2025-11-21 12:31:23,444 - root - INFO - Length of the Table: 58
+2025-11-21 12:31:23,444 - root - INFO - Loop = 2
+2025-11-21 12:31:23,444 - root - INFO - ====
+2025-11-21 12:31:23,444 - root - INFO - Starting Date: 09-02-2025
+2025-11-21 12:31:23,444 - root - INFO - Ending Date: 21-03-2025
+2025-11-21 12:31:23,444 - root - INFO - ====
+2025-11-21 12:31:23,923 - root - INFO - Length of the Table: 86
+2025-11-21 12:31:23,924 - root - INFO - Loop = 3
+2025-11-21 12:31:23,924 - root - INFO - ====
+2025-11-21 12:31:23,924 - root - INFO - Starting Date: 21-03-2025
+2025-11-21 12:31:23,924 - root - INFO - Ending Date: 30-04-2025
+2025-11-21 12:31:23,924 - root - INFO - ====
+2025-11-21 12:31:24,246 - root - INFO - Length of the Table: 111
+2025-11-21 12:31:24,246 - root - INFO - Loop = 4
+2025-11-21 12:31:24,246 - root - INFO - ====
+2025-11-21 12:31:24,246 - root - INFO - Starting Date: 30-04-2025
+2025-11-21 12:31:24,246 - root - INFO - Ending Date: 09-06-2025
+2025-11-21 12:31:24,246 - root - INFO - ====
+2025-11-21 12:31:24,580 - root - INFO - Length of the Table: 139
+2025-11-21 12:31:24,581 - root - INFO - Loop = 5
+2025-11-21 12:31:24,581 - root - INFO - ====
+2025-11-21 12:31:24,581 - root - INFO - Starting Date: 09-06-2025
+2025-11-21 12:31:24,581 - root - INFO - Ending Date: 19-07-2025
+2025-11-21 12:31:24,581 - root - INFO - ====
+2025-11-21 12:31:24,874 - root - INFO - Length of the Table: 169
+2025-11-21 12:31:24,874 - root - INFO - Loop = 6
+2025-11-21 12:31:24,874 - root - INFO - ====
+2025-11-21 12:31:24,874 - root - INFO - Starting Date: 19-07-2025
+2025-11-21 12:31:24,874 - root - INFO - Ending Date: 28-08-2025
+2025-11-21 12:31:24,874 - root - INFO - ====
+2025-11-21 12:31:25,588 - root - INFO - Length of the Table: 196
+2025-11-21 12:31:25,588 - root - INFO - Loop = 7
+2025-11-21 12:31:25,588 - root - INFO - ====
+2025-11-21 12:31:25,588 - root - INFO - Starting Date: 28-08-2025
+2025-11-21 12:31:25,588 - root - INFO - Ending Date: 07-10-2025
+2025-11-21 12:31:25,588 - root - INFO - ====
+2025-11-21 12:31:25,886 - root - INFO - Length of the Table: 224
+2025-11-21 12:31:25,886 - root - INFO - Loop = 8
+2025-11-21 12:31:25,886 - root - INFO - ====
+2025-11-21 12:31:25,886 - root - INFO - Starting Date: 07-10-2025
+2025-11-21 12:31:25,886 - root - INFO - Ending Date: 16-11-2025
+2025-11-21 12:31:25,886 - root - INFO - ====
+2025-11-21 12:31:26,291 - root - INFO - Length of the Table: 251
+2025-11-21 12:31:26,292 - root - INFO - End Loop
+2025-11-21 12:31:26,292 - root - INFO - ====
+2025-11-21 12:31:26,292 - root - INFO - Starting Date: 16-11-2025
+2025-11-21 12:31:26,292 - root - INFO - Ending Date: 21-11-2025
+2025-11-21 12:31:26,292 - root - INFO - ====
+2025-11-21 12:31:26,570 - root - INFO - Finale
+2025-11-21 12:31:26,570 - root - INFO - Length of the Total Dataset: 255
+2025-11-21 12:31:27,198 - app.providers.nse - INFO - Added live quote for RELIANCE: 1553.4 at 21-Nov-2025 12:29:49
+2025-11-21 12:31:27,199 - app.providers.nse - INFO - NSE returned 256 bars for RELIANCE
+Skipping Yahoo for RELIANCE.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for RELIANCE.NS, trying NSE provider...
+✓ NSE provided 256 bars for RELIANCE.NS
+INFO:     127.0.0.1:56529 - "GET /stock/RELIANCE.NS/full-analysis?lookback=1y HTTP/1.1" 200 OK
+2025-11-21 12:31:56,635 - app.providers.nse - INFO - Fetching NSE data for RELIANCE from 22-11-2023 to 21-11-2025
+2025-11-21 12:31:56,637 - root - INFO - Starting Date: 2023-11-22 00:00:00
+2025-11-21 12:31:56,637 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:31:56,637 - root - INFO - Total Number of Days: 730
+2025-11-21 12:31:56,637 - root - INFO - Total FOR Loops in the program: 18
+2025-11-21 12:31:56,637 - root - INFO - Remainder Loop: 10
+2025-11-21 12:31:56,641 - root - INFO - Loop = 0
+2025-11-21 12:31:56,641 - root - INFO - ====
+2025-11-21 12:31:56,641 - root - INFO - Starting Date: 22-11-2023
+2025-11-21 12:31:56,641 - root - INFO - Ending Date: 01-01-2024
+2025-11-21 12:31:56,641 - root - INFO - ====
+2025-11-21 12:31:57,117 - root - INFO - Length of the Table: 27
+2025-11-21 12:31:57,117 - root - INFO - Loop = 1
+2025-11-21 12:31:57,117 - root - INFO - ====
+2025-11-21 12:31:57,117 - root - INFO - Starting Date: 01-01-2024
+2025-11-21 12:31:57,117 - root - INFO - Ending Date: 10-02-2024
+2025-11-21 12:31:57,117 - root - INFO - ====
+2025-11-21 12:31:57,514 - root - INFO - Length of the Table: 56
+2025-11-21 12:31:57,514 - root - INFO - Loop = 2
+2025-11-21 12:31:57,514 - root - INFO - ====
+2025-11-21 12:31:57,514 - root - INFO - Starting Date: 10-02-2024
+2025-11-21 12:31:57,514 - root - INFO - Ending Date: 21-03-2024
+2025-11-21 12:31:57,514 - root - INFO - ====
+2025-11-21 12:31:57,925 - root - INFO - Length of the Table: 85
+2025-11-21 12:31:57,925 - root - INFO - Loop = 3
+2025-11-21 12:31:57,925 - root - INFO - ====
+2025-11-21 12:31:57,925 - root - INFO - Starting Date: 21-03-2024
+2025-11-21 12:31:57,925 - root - INFO - Ending Date: 30-04-2024
+2025-11-21 12:31:57,925 - root - INFO - ====
+2025-11-21 12:31:58,334 - root - INFO - Length of the Table: 110
+2025-11-21 12:31:58,335 - root - INFO - Loop = 4
+2025-11-21 12:31:58,335 - root - INFO - ====
+2025-11-21 12:31:58,335 - root - INFO - Starting Date: 30-04-2024
+2025-11-21 12:31:58,335 - root - INFO - Ending Date: 09-06-2024
+2025-11-21 12:31:58,335 - root - INFO - ====
+2025-11-21 12:32:00,102 - root - INFO - Length of the Table: 138
+2025-11-21 12:32:00,102 - root - INFO - Loop = 5
+2025-11-21 12:32:00,102 - root - INFO - ====
+2025-11-21 12:32:00,102 - root - INFO - Starting Date: 09-06-2024
+2025-11-21 12:32:00,102 - root - INFO - Ending Date: 19-07-2024
+2025-11-21 12:32:00,102 - root - INFO - ====
+2025-11-21 12:32:00,596 - root - INFO - Length of the Table: 166
+2025-11-21 12:32:00,596 - root - INFO - Loop = 6
+2025-11-21 12:32:00,596 - root - INFO - ====
+2025-11-21 12:32:00,596 - root - INFO - Starting Date: 19-07-2024
+2025-11-21 12:32:00,596 - root - INFO - Ending Date: 28-08-2024
+2025-11-21 12:32:00,596 - root - INFO - ====
+2025-11-21 12:32:01,178 - root - INFO - Length of the Table: 194
+2025-11-21 12:32:01,178 - root - INFO - Loop = 7
+2025-11-21 12:32:01,178 - root - INFO - ====
+2025-11-21 12:32:01,178 - root - INFO - Starting Date: 28-08-2024
+2025-11-21 12:32:01,178 - root - INFO - Ending Date: 07-10-2024
+2025-11-21 12:32:01,178 - root - INFO - ====
+2025-11-21 12:32:01,675 - root - INFO - Length of the Table: 222
+2025-11-21 12:32:01,675 - root - INFO - Loop = 8
+2025-11-21 12:32:01,675 - root - INFO - ====
+2025-11-21 12:32:01,675 - root - INFO - Starting Date: 07-10-2024
+2025-11-21 12:32:01,675 - root - INFO - Ending Date: 16-11-2024
+2025-11-21 12:32:01,675 - root - INFO - ====
+2025-11-21 12:32:02,277 - root - INFO - Length of the Table: 251
+2025-11-21 12:32:02,277 - root - INFO - Loop = 9
+2025-11-21 12:32:02,277 - root - INFO - ====
+2025-11-21 12:32:02,277 - root - INFO - Starting Date: 16-11-2024
+2025-11-21 12:32:02,277 - root - INFO - Ending Date: 26-12-2024
+2025-11-21 12:32:02,277 - root - INFO - ====
+2025-11-21 12:32:02,773 - root - INFO - Length of the Table: 278
+2025-11-21 12:32:02,773 - root - INFO - Loop = 10
+2025-11-21 12:32:02,773 - root - INFO - ====
+2025-11-21 12:32:02,773 - root - INFO - Starting Date: 26-12-2024
+2025-11-21 12:32:02,773 - root - INFO - Ending Date: 04-02-2025
+2025-11-21 12:32:02,774 - root - INFO - ====
+2025-11-21 12:32:03,293 - root - INFO - Length of the Table: 308
+2025-11-21 12:32:03,293 - root - INFO - Loop = 11
+2025-11-21 12:32:03,293 - root - INFO - ====
+2025-11-21 12:32:03,293 - root - INFO - Starting Date: 04-02-2025
+2025-11-21 12:32:03,293 - root - INFO - Ending Date: 16-03-2025
+2025-11-21 12:32:03,293 - root - INFO - ====
+2025-11-21 12:32:03,693 - root - INFO - Length of the Table: 335
+2025-11-21 12:32:03,693 - root - INFO - Loop = 12
+2025-11-21 12:32:03,693 - root - INFO - ====
+2025-11-21 12:32:03,693 - root - INFO - Starting Date: 16-03-2025
+2025-11-21 12:32:03,693 - root - INFO - Ending Date: 25-04-2025
+2025-11-21 12:32:03,693 - root - INFO - ====
+2025-11-21 12:32:04,107 - root - INFO - Length of the Table: 361
+2025-11-21 12:32:04,108 - root - INFO - Loop = 13
+2025-11-21 12:32:04,108 - root - INFO - ====
+2025-11-21 12:32:04,108 - root - INFO - Starting Date: 25-04-2025
+2025-11-21 12:32:04,108 - root - INFO - Ending Date: 04-06-2025
+2025-11-21 12:32:04,108 - root - INFO - ====
+2025-11-21 12:32:04,535 - root - INFO - Length of the Table: 389
+2025-11-21 12:32:04,536 - root - INFO - Loop = 14
+2025-11-21 12:32:04,536 - root - INFO - ====
+2025-11-21 12:32:04,536 - root - INFO - Starting Date: 04-06-2025
+2025-11-21 12:32:04,536 - root - INFO - Ending Date: 14-07-2025
+2025-11-21 12:32:04,536 - root - INFO - ====
+2025-11-21 12:32:04,920 - root - INFO - Length of the Table: 418
+2025-11-21 12:32:04,921 - root - INFO - Loop = 15
+2025-11-21 12:32:04,921 - root - INFO - ====
+2025-11-21 12:32:04,921 - root - INFO - Starting Date: 14-07-2025
+2025-11-21 12:32:04,921 - root - INFO - Ending Date: 23-08-2025
+2025-11-21 12:32:04,921 - root - INFO - ====
+2025-11-21 12:32:05,267 - root - INFO - Length of the Table: 447
+2025-11-21 12:32:05,268 - root - INFO - Loop = 16
+2025-11-21 12:32:05,268 - root - INFO - ====
+2025-11-21 12:32:05,268 - root - INFO - Starting Date: 23-08-2025
+2025-11-21 12:32:05,268 - root - INFO - Ending Date: 02-10-2025
+2025-11-21 12:32:05,268 - root - INFO - ====
+2025-11-21 12:32:05,997 - root - INFO - Length of the Table: 474
+2025-11-21 12:32:05,997 - root - INFO - Loop = 17
+2025-11-21 12:32:05,997 - root - INFO - ====
+2025-11-21 12:32:05,997 - root - INFO - Starting Date: 02-10-2025
+2025-11-21 12:32:05,997 - root - INFO - Ending Date: 11-11-2025
+2025-11-21 12:32:05,997 - root - INFO - ====
+2025-11-21 12:32:06,434 - root - INFO - Length of the Table: 500
+2025-11-21 12:32:06,434 - root - INFO - End Loop
+2025-11-21 12:32:06,434 - root - INFO - ====
+2025-11-21 12:32:06,434 - root - INFO - Starting Date: 11-11-2025
+2025-11-21 12:32:06,434 - root - INFO - Ending Date: 21-11-2025
+2025-11-21 12:32:06,434 - root - INFO - ====
+2025-11-21 12:32:06,984 - root - INFO - Finale
+2025-11-21 12:32:06,984 - root - INFO - Length of the Total Dataset: 508
+2025-11-21 12:32:08,329 - app.providers.nse - INFO - Added live quote for RELIANCE: 1552 at 21-Nov-2025 12:31:20
+2025-11-21 12:32:08,329 - app.providers.nse - INFO - NSE returned 509 bars for RELIANCE
+Skipping Yahoo for RELIANCE.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for RELIANCE.NS, trying NSE provider...
+✓ NSE provided 509 bars for RELIANCE.NS
+Error calculating pre-score for RELIANCE.NS: 'PreScore' object has no attribute 'score'
+INFO:     127.0.0.1:56598 - "POST /scores/RELIANCE.NS/checklist HTTP/1.1" 200 OK
+2025-11-21 12:35:21,448 - app.providers.nse - INFO - Fetching NSE data for VMM from 21-11-2024 to 21-11-2025
+2025-11-21 12:35:21,449 - root - INFO - Starting Date: 2024-11-21 00:00:00
+2025-11-21 12:35:21,449 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:35:21,449 - root - INFO - Total Number of Days: 365
+2025-11-21 12:35:21,449 - root - INFO - Total FOR Loops in the program: 9
+2025-11-21 12:35:21,449 - root - INFO - Remainder Loop: 5
+2025-11-21 12:35:21,451 - root - INFO - Loop = 0
+2025-11-21 12:35:21,451 - root - INFO - ====
+2025-11-21 12:35:21,451 - root - INFO - Starting Date: 21-11-2024
+2025-11-21 12:35:21,451 - root - INFO - Ending Date: 31-12-2024
+2025-11-21 12:35:21,451 - root - INFO - ====
+2025-11-21 12:35:21,846 - root - INFO - Length of the Table: 9
+2025-11-21 12:35:21,846 - root - INFO - Loop = 1
+2025-11-21 12:35:21,846 - root - INFO - ====
+2025-11-21 12:35:21,846 - root - INFO - Starting Date: 31-12-2024
+2025-11-21 12:35:21,846 - root - INFO - Ending Date: 09-02-2025
+2025-11-21 12:35:21,846 - root - INFO - ====
+2025-11-21 12:35:22,175 - root - INFO - Length of the Table: 39
+2025-11-21 12:35:22,175 - root - INFO - Loop = 2
+2025-11-21 12:35:22,175 - root - INFO - ====
+2025-11-21 12:35:22,175 - root - INFO - Starting Date: 09-02-2025
+2025-11-21 12:35:22,175 - root - INFO - Ending Date: 21-03-2025
+2025-11-21 12:35:22,176 - root - INFO - ====
+2025-11-21 12:35:22,590 - root - INFO - Length of the Table: 67
+2025-11-21 12:35:22,590 - root - INFO - Loop = 3
+2025-11-21 12:35:22,590 - root - INFO - ====
+2025-11-21 12:35:22,590 - root - INFO - Starting Date: 21-03-2025
+2025-11-21 12:35:22,590 - root - INFO - Ending Date: 30-04-2025
+2025-11-21 12:35:22,590 - root - INFO - ====
+2025-11-21 12:35:22,973 - root - INFO - Length of the Table: 92
+2025-11-21 12:35:22,973 - root - INFO - Loop = 4
+2025-11-21 12:35:22,973 - root - INFO - ====
+2025-11-21 12:35:22,973 - root - INFO - Starting Date: 30-04-2025
+2025-11-21 12:35:22,973 - root - INFO - Ending Date: 09-06-2025
+2025-11-21 12:35:22,973 - root - INFO - ====
+2025-11-21 12:35:23,271 - root - INFO - Length of the Table: 120
+2025-11-21 12:35:23,271 - root - INFO - Loop = 5
+2025-11-21 12:35:23,271 - root - INFO - ====
+2025-11-21 12:35:23,271 - root - INFO - Starting Date: 09-06-2025
+2025-11-21 12:35:23,272 - root - INFO - Ending Date: 19-07-2025
+2025-11-21 12:35:23,272 - root - INFO - ====
+2025-11-21 12:35:23,578 - root - INFO - Length of the Table: 150
+2025-11-21 12:35:23,578 - root - INFO - Loop = 6
+2025-11-21 12:35:23,578 - root - INFO - ====
+2025-11-21 12:35:23,578 - root - INFO - Starting Date: 19-07-2025
+2025-11-21 12:35:23,578 - root - INFO - Ending Date: 28-08-2025
+2025-11-21 12:35:23,578 - root - INFO - ====
+2025-11-21 12:35:23,890 - root - INFO - Length of the Table: 177
+2025-11-21 12:35:23,890 - root - INFO - Loop = 7
+2025-11-21 12:35:23,890 - root - INFO - ====
+2025-11-21 12:35:23,890 - root - INFO - Starting Date: 28-08-2025
+2025-11-21 12:35:23,890 - root - INFO - Ending Date: 07-10-2025
+2025-11-21 12:35:23,890 - root - INFO - ====
+2025-11-21 12:35:24,216 - root - INFO - Length of the Table: 205
+2025-11-21 12:35:24,216 - root - INFO - Loop = 8
+2025-11-21 12:35:24,216 - root - INFO - ====
+2025-11-21 12:35:24,217 - root - INFO - Starting Date: 07-10-2025
+2025-11-21 12:35:24,217 - root - INFO - Ending Date: 16-11-2025
+2025-11-21 12:35:24,217 - root - INFO - ====
+2025-11-21 12:35:24,545 - root - INFO - Length of the Table: 232
+2025-11-21 12:35:24,545 - root - INFO - End Loop
+2025-11-21 12:35:24,545 - root - INFO - ====
+2025-11-21 12:35:24,545 - root - INFO - Starting Date: 16-11-2025
+2025-11-21 12:35:24,545 - root - INFO - Ending Date: 21-11-2025
+2025-11-21 12:35:24,545 - root - INFO - ====
+2025-11-21 12:35:24,911 - root - INFO - Finale
+2025-11-21 12:35:24,911 - root - INFO - Length of the Total Dataset: 236
+2025-11-21 12:35:25,575 - app.providers.nse - INFO - NSE returned 236 bars for VMM
+Skipping Yahoo for VMM.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for VMM.NS, trying NSE provider...
+✓ NSE provided 236 bars for VMM.NS
+INFO:     127.0.0.1:56881 - "GET /stock/VMM.NS/full-analysis?lookback=1y HTTP/1.1" 200 OK
+2025-11-21 12:36:36,474 - app.providers.nse - INFO - Fetching NSE data for VMM from 21-11-2024 to 21-11-2025
+2025-11-21 12:36:36,478 - root - INFO - Starting Date: 2024-11-21 00:00:00
+2025-11-21 12:36:36,478 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:36:36,478 - root - INFO - Total Number of Days: 365
+2025-11-21 12:36:36,478 - root - INFO - Total FOR Loops in the program: 9
+2025-11-21 12:36:36,478 - root - INFO - Remainder Loop: 5
+2025-11-21 12:36:36,483 - root - INFO - Loop = 0
+2025-11-21 12:36:36,483 - root - INFO - ====
+2025-11-21 12:36:36,483 - root - INFO - Starting Date: 21-11-2024
+2025-11-21 12:36:36,483 - root - INFO - Ending Date: 31-12-2024
+2025-11-21 12:36:36,483 - root - INFO - ====
+2025-11-21 12:36:36,930 - root - INFO - Length of the Table: 9
+2025-11-21 12:36:36,931 - root - INFO - Loop = 1
+2025-11-21 12:36:36,931 - root - INFO - ====
+2025-11-21 12:36:36,931 - root - INFO - Starting Date: 31-12-2024
+2025-11-21 12:36:36,931 - root - INFO - Ending Date: 09-02-2025
+2025-11-21 12:36:36,931 - root - INFO - ====
+2025-11-21 12:36:37,294 - root - INFO - Length of the Table: 39
+2025-11-21 12:36:37,294 - root - INFO - Loop = 2
+2025-11-21 12:36:37,294 - root - INFO - ====
+2025-11-21 12:36:37,294 - root - INFO - Starting Date: 09-02-2025
+2025-11-21 12:36:37,294 - root - INFO - Ending Date: 21-03-2025
+2025-11-21 12:36:37,294 - root - INFO - ====
+2025-11-21 12:36:37,708 - root - INFO - Length of the Table: 67
+2025-11-21 12:36:37,708 - root - INFO - Loop = 3
+2025-11-21 12:36:37,708 - root - INFO - ====
+2025-11-21 12:36:37,708 - root - INFO - Starting Date: 21-03-2025
+2025-11-21 12:36:37,708 - root - INFO - Ending Date: 30-04-2025
+2025-11-21 12:36:37,708 - root - INFO - ====
+2025-11-21 12:36:38,081 - root - INFO - Length of the Table: 92
+2025-11-21 12:36:38,081 - root - INFO - Loop = 4
+2025-11-21 12:36:38,081 - root - INFO - ====
+2025-11-21 12:36:38,081 - root - INFO - Starting Date: 30-04-2025
+2025-11-21 12:36:38,081 - root - INFO - Ending Date: 09-06-2025
+2025-11-21 12:36:38,081 - root - INFO - ====
+2025-11-21 12:36:38,487 - root - INFO - Length of the Table: 120
+2025-11-21 12:36:38,487 - root - INFO - Loop = 5
+2025-11-21 12:36:38,487 - root - INFO - ====
+2025-11-21 12:36:38,487 - root - INFO - Starting Date: 09-06-2025
+2025-11-21 12:36:38,487 - root - INFO - Ending Date: 19-07-2025
+2025-11-21 12:36:38,487 - root - INFO - ====
+2025-11-21 12:36:38,838 - root - INFO - Length of the Table: 150
+2025-11-21 12:36:38,838 - root - INFO - Loop = 6
+2025-11-21 12:36:38,838 - root - INFO - ====
+2025-11-21 12:36:38,838 - root - INFO - Starting Date: 19-07-2025
+2025-11-21 12:36:38,838 - root - INFO - Ending Date: 28-08-2025
+2025-11-21 12:36:38,838 - root - INFO - ====
+2025-11-21 12:36:39,161 - root - INFO - Length of the Table: 177
+2025-11-21 12:36:39,161 - root - INFO - Loop = 7
+2025-11-21 12:36:39,161 - root - INFO - ====
+2025-11-21 12:36:39,162 - root - INFO - Starting Date: 28-08-2025
+2025-11-21 12:36:39,162 - root - INFO - Ending Date: 07-10-2025
+2025-11-21 12:36:39,162 - root - INFO - ====
+2025-11-21 12:36:39,513 - root - INFO - Length of the Table: 205
+2025-11-21 12:36:39,513 - root - INFO - Loop = 8
+2025-11-21 12:36:39,513 - root - INFO - ====
+2025-11-21 12:36:39,513 - root - INFO - Starting Date: 07-10-2025
+2025-11-21 12:36:39,513 - root - INFO - Ending Date: 16-11-2025
+2025-11-21 12:36:39,513 - root - INFO - ====
+2025-11-21 12:36:39,901 - root - INFO - Length of the Table: 232
+2025-11-21 12:36:39,901 - root - INFO - End Loop
+2025-11-21 12:36:39,901 - root - INFO - ====
+2025-11-21 12:36:39,901 - root - INFO - Starting Date: 16-11-2025
+2025-11-21 12:36:39,903 - root - INFO - Ending Date: 21-11-2025
+2025-11-21 12:36:39,903 - root - INFO - ====
+2025-11-21 12:36:40,259 - root - INFO - Finale
+2025-11-21 12:36:40,259 - root - INFO - Length of the Total Dataset: 236
+2025-11-21 12:36:40,979 - app.providers.nse - INFO - NSE returned 236 bars for VMM
+Skipping Yahoo for VMM.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for VMM.NS, trying NSE provider...
+✓ NSE provided 236 bars for VMM.NS
+INFO:     127.0.0.1:56996 - "GET /stock/VMM.NS/full-analysis?lookback=1y HTTP/1.1" 200 OK
+2025-11-21 12:36:41,514 - app.providers.nse - INFO - Fetching NSE data for PAYTM from 21-11-2024 to 21-11-2025
+2025-11-21 12:36:41,514 - root - INFO - Starting Date: 2024-11-21 00:00:00
+2025-11-21 12:36:41,515 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:36:41,515 - root - INFO - Total Number of Days: 365
+2025-11-21 12:36:41,515 - root - INFO - Total FOR Loops in the program: 9
+2025-11-21 12:36:41,515 - root - INFO - Remainder Loop: 5
+2025-11-21 12:36:41,515 - root - INFO - Loop = 0
+2025-11-21 12:36:41,515 - root - INFO - ====
+2025-11-21 12:36:41,515 - root - INFO - Starting Date: 21-11-2024
+2025-11-21 12:36:41,515 - root - INFO - Ending Date: 31-12-2024
+2025-11-21 12:36:41,515 - root - INFO - ====
+2025-11-21 12:36:41,874 - root - INFO - Length of the Table: 28
+2025-11-21 12:36:41,875 - root - INFO - Loop = 1
+2025-11-21 12:36:41,875 - root - INFO - ====
+2025-11-21 12:36:41,875 - root - INFO - Starting Date: 31-12-2024
+2025-11-21 12:36:41,875 - root - INFO - Ending Date: 09-02-2025
+2025-11-21 12:36:41,875 - root - INFO - ====
+2025-11-21 12:36:42,203 - root - INFO - Length of the Table: 58
+2025-11-21 12:36:42,203 - root - INFO - Loop = 2
+2025-11-21 12:36:42,203 - root - INFO - ====
+2025-11-21 12:36:42,203 - root - INFO - Starting Date: 09-02-2025
+2025-11-21 12:36:42,203 - root - INFO - Ending Date: 21-03-2025
+2025-11-21 12:36:42,203 - root - INFO - ====
+2025-11-21 12:36:42,611 - root - INFO - Length of the Table: 86
+2025-11-21 12:36:42,611 - root - INFO - Loop = 3
+2025-11-21 12:36:42,611 - root - INFO - ====
+2025-11-21 12:36:42,611 - root - INFO - Starting Date: 21-03-2025
+2025-11-21 12:36:42,611 - root - INFO - Ending Date: 30-04-2025
+2025-11-21 12:36:42,611 - root - INFO - ====
+2025-11-21 12:36:42,974 - root - INFO - Length of the Table: 111
+2025-11-21 12:36:42,975 - root - INFO - Loop = 4
+2025-11-21 12:36:42,975 - root - INFO - ====
+2025-11-21 12:36:42,975 - root - INFO - Starting Date: 30-04-2025
+2025-11-21 12:36:42,975 - root - INFO - Ending Date: 09-06-2025
+2025-11-21 12:36:42,975 - root - INFO - ====
+2025-11-21 12:36:43,344 - root - INFO - Length of the Table: 139
+2025-11-21 12:36:43,345 - root - INFO - Loop = 5
+2025-11-21 12:36:43,345 - root - INFO - ====
+2025-11-21 12:36:43,345 - root - INFO - Starting Date: 09-06-2025
+2025-11-21 12:36:43,345 - root - INFO - Ending Date: 19-07-2025
+2025-11-21 12:36:43,345 - root - INFO - ====
+2025-11-21 12:36:43,688 - root - INFO - Length of the Table: 169
+2025-11-21 12:36:43,688 - root - INFO - Loop = 6
+2025-11-21 12:36:43,688 - root - INFO - ====
+2025-11-21 12:36:43,688 - root - INFO - Starting Date: 19-07-2025
+2025-11-21 12:36:43,688 - root - INFO - Ending Date: 28-08-2025
+2025-11-21 12:36:43,688 - root - INFO - ====
+2025-11-21 12:36:44,048 - root - INFO - Length of the Table: 196
+2025-11-21 12:36:44,048 - root - INFO - Loop = 7
+2025-11-21 12:36:44,048 - root - INFO - ====
+2025-11-21 12:36:44,048 - root - INFO - Starting Date: 28-08-2025
+2025-11-21 12:36:44,048 - root - INFO - Ending Date: 07-10-2025
+2025-11-21 12:36:44,048 - root - INFO - ====
+2025-11-21 12:36:44,388 - root - INFO - Length of the Table: 224
+2025-11-21 12:36:44,388 - root - INFO - Loop = 8
+2025-11-21 12:36:44,389 - root - INFO - ====
+2025-11-21 12:36:44,389 - root - INFO - Starting Date: 07-10-2025
+2025-11-21 12:36:44,389 - root - INFO - Ending Date: 16-11-2025
+2025-11-21 12:36:44,389 - root - INFO - ====
+2025-11-21 12:36:44,807 - root - INFO - Length of the Table: 251
+2025-11-21 12:36:44,807 - root - INFO - End Loop
+2025-11-21 12:36:44,807 - root - INFO - ====
+2025-11-21 12:36:44,807 - root - INFO - Starting Date: 16-11-2025
+2025-11-21 12:36:44,807 - root - INFO - Ending Date: 21-11-2025
+2025-11-21 12:36:44,808 - root - INFO - ====
+2025-11-21 12:36:45,194 - root - INFO - Finale
+2025-11-21 12:36:45,194 - root - INFO - Length of the Total Dataset: 255
+2025-11-21 12:36:45,873 - app.providers.nse - INFO - Added live quote for PAYTM: 1269.3 at 21-Nov-2025 12:36:20
+2025-11-21 12:36:45,874 - app.providers.nse - INFO - NSE returned 256 bars for PAYTM
+Skipping Yahoo for PAYTM.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for PAYTM.NS, trying NSE provider...
+✓ NSE provided 256 bars for PAYTM.NS
+INFO:     127.0.0.1:57000 - "GET /stock/PAYTM.NS/full-analysis?lookback=1y HTTP/1.1" 200 OK
+2025-11-21 12:47:37,667 - app.providers.nse - INFO - Fetching NSE data for NH from 21-11-2024 to 21-11-2025
+2025-11-21 12:47:37,671 - root - INFO - Starting Date: 2024-11-21 00:00:00
+2025-11-21 12:47:37,671 - root - INFO - Ending Date: 2025-11-21 00:00:00
+2025-11-21 12:47:37,671 - root - INFO - Total Number of Days: 365
+2025-11-21 12:47:37,671 - root - INFO - Total FOR Loops in the program: 9
+2025-11-21 12:47:37,671 - root - INFO - Remainder Loop: 5
+2025-11-21 12:47:37,686 - root - INFO - Loop = 0
+2025-11-21 12:47:37,687 - root - INFO - ====
+2025-11-21 12:47:37,687 - root - INFO - Starting Date: 21-11-2024
+2025-11-21 12:47:37,687 - root - INFO - Ending Date: 31-12-2024
+2025-11-21 12:47:37,687 - root - INFO - ====
+2025-11-21 12:47:38,175 - root - INFO - Length of the Table: 28
+2025-11-21 12:47:38,175 - root - INFO - Loop = 1
+2025-11-21 12:47:38,175 - root - INFO - ====
+2025-11-21 12:47:38,175 - root - INFO - Starting Date: 31-12-2024
+2025-11-21 12:47:38,175 - root - INFO - Ending Date: 09-02-2025
+2025-11-21 12:47:38,175 - root - INFO - ====
+2025-11-21 12:47:38,669 - root - INFO - Length of the Table: 58
+2025-11-21 12:47:38,669 - root - INFO - Loop = 2
+2025-11-21 12:47:38,669 - root - INFO - ====
+2025-11-21 12:47:38,669 - root - INFO - Starting Date: 09-02-2025
+2025-11-21 12:47:38,669 - root - INFO - Ending Date: 21-03-2025
+2025-11-21 12:47:38,669 - root - INFO - ====
+2025-11-21 12:47:39,153 - root - INFO - Length of the Table: 86
+2025-11-21 12:47:39,153 - root - INFO - Loop = 3
+2025-11-21 12:47:39,153 - root - INFO - ====
+2025-11-21 12:47:39,153 - root - INFO - Starting Date: 21-03-2025
+2025-11-21 12:47:39,153 - root - INFO - Ending Date: 30-04-2025
+2025-11-21 12:47:39,153 - root - INFO - ====
+2025-11-21 12:47:39,591 - root - INFO - Length of the Table: 111
+2025-11-21 12:47:39,591 - root - INFO - Loop = 4
+2025-11-21 12:47:39,591 - root - INFO - ====
+2025-11-21 12:47:39,591 - root - INFO - Starting Date: 30-04-2025
+2025-11-21 12:47:39,591 - root - INFO - Ending Date: 09-06-2025
+2025-11-21 12:47:39,591 - root - INFO - ====
+2025-11-21 12:47:46,224 - root - INFO - Length of the Table: 139
+2025-11-21 12:47:46,224 - root - INFO - Loop = 5
+2025-11-21 12:47:46,225 - root - INFO - ====
+2025-11-21 12:47:46,225 - root - INFO - Starting Date: 09-06-2025
+2025-11-21 12:47:46,225 - root - INFO - Ending Date: 19-07-2025
+2025-11-21 12:47:46,225 - root - INFO - ====
+2025-11-21 12:47:46,891 - root - INFO - Length of the Table: 169
+2025-11-21 12:47:46,891 - root - INFO - Loop = 6
+2025-11-21 12:47:46,891 - root - INFO - ====
+2025-11-21 12:47:46,891 - root - INFO - Starting Date: 19-07-2025
+2025-11-21 12:47:46,891 - root - INFO - Ending Date: 28-08-2025
+2025-11-21 12:47:46,891 - root - INFO - ====
+2025-11-21 12:47:47,351 - root - INFO - Length of the Table: 196
+2025-11-21 12:47:47,351 - root - INFO - Loop = 7
+2025-11-21 12:47:47,351 - root - INFO - ====
+2025-11-21 12:47:47,351 - root - INFO - Starting Date: 28-08-2025
+2025-11-21 12:47:47,351 - root - INFO - Ending Date: 07-10-2025
+2025-11-21 12:47:47,351 - root - INFO - ====
+2025-11-21 12:47:47,699 - root - INFO - Length of the Table: 224
+2025-11-21 12:47:47,700 - root - INFO - Loop = 8
+2025-11-21 12:47:47,700 - root - INFO - ====
+2025-11-21 12:47:47,700 - root - INFO - Starting Date: 07-10-2025
+2025-11-21 12:47:47,700 - root - INFO - Ending Date: 16-11-2025
+2025-11-21 12:47:47,700 - root - INFO - ====
+2025-11-21 12:47:48,236 - root - INFO - Length of the Table: 251
+2025-11-21 12:47:48,236 - root - INFO - End Loop
+2025-11-21 12:47:48,236 - root - INFO - ====
+2025-11-21 12:47:48,236 - root - INFO - Starting Date: 16-11-2025
+2025-11-21 12:47:48,236 - root - INFO - Ending Date: 21-11-2025
+2025-11-21 12:47:48,237 - root - INFO - ====
+2025-11-21 12:47:48,804 - root - INFO - Finale
+2025-11-21 12:47:48,804 - root - INFO - Length of the Total Dataset: 255
+2025-11-21 12:48:03,446 - app.providers.nse - INFO - NSE returned 255 bars for NH
+Skipping Yahoo for NH.NS (Indian stock), going straight to NSE...
+Yahoo Finance unavailable for NH.NS, trying NSE provider...
+✓ NSE provided 255 bars for NH.NS
+INFO:     127.0.0.1:57961 - "GET /stock/NH.NS/full-analysis?lookback=1y HTTP/1.1" 200 OK

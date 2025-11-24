@@ -1,0 +1,73 @@
+{
+    "version": "2025-11-21",
+    "source": "NSE India - NIFTY Sector Indices (Demo - Reduced for Testing)",
+    "last_updated": "2025-11-21",
+    "sectors": [
+        {
+            "sector_id": "nifty_bank",
+            "sector_name": "NIFTY Bank",
+            "index_symbol": "^NSEBANK",
+            "members": [
+                {
+                    "symbol": "HDFCBANK.NS",
+                    "name": "HDFC Bank Limited",
+                    "weight_hint": 0.40
+                },
+                {
+                    "symbol": "ICICIBANK.NS",
+                    "name": "ICICI Bank Limited",
+                    "weight_hint": 0.35
+                },
+                {
+                    "symbol": "SBIN.NS",
+                    "name": "State Bank of India",
+                    "weight_hint": 0.25
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_it",
+            "sector_name": "NIFTY IT",
+            "index_symbol": "^CNXIT",
+            "members": [
+                {
+                    "symbol": "TCS.NS",
+                    "name": "Tata Consultancy Services Limited",
+                    "weight_hint": 0.40
+                },
+                {
+                    "symbol": "INFY.NS",
+                    "name": "Infosys Limited",
+                    "weight_hint": 0.35
+                },
+                {
+                    "symbol": "WIPRO.NS",
+                    "name": "Wipro Limited",
+                    "weight_hint": 0.25
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_pharma",
+            "sector_name": "NIFTY Pharma",
+            "index_symbol": "^CNXPHARMA",
+            "members": [
+                {
+                    "symbol": "SUNPHARMA.NS",
+                    "name": "Sun Pharmaceutical Industries Limited",
+                    "weight_hint": 0.45
+                },
+                {
+                    "symbol": "DRREDDY.NS",
+                    "name": "Dr. Reddy's Laboratories Limited",
+                    "weight_hint": 0.30
+                },
+                {
+                    "symbol": "CIPLA.NS",
+                    "name": "Cipla Limited",
+                    "weight_hint": 0.25
+                }
+            ]
+        }
+    ]
+}

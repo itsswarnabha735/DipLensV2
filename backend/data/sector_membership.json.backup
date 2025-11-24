@@ -1,0 +1,668 @@
+{
+    "version": "2025-11-21",
+    "source": "NSE India - NIFTY Sector Indices (Curated)",
+    "last_updated": "2025-11-21",
+    "sectors": [
+        {
+            "sector_id": "nifty_bank",
+            "sector_name": "NIFTY Bank",
+            "index_symbol": "^NSEBANK",
+            "members": [
+                {
+                    "symbol": "HDFCBANK.NS",
+                    "name": "HDFC Bank Limited",
+                    "weight_hint": 0.30
+                },
+                {
+                    "symbol": "ICICIBANK.NS",
+                    "name": "ICICI Bank Limited",
+                    "weight_hint": 0.25
+                },
+                {
+                    "symbol": "KOTAKBANK.NS",
+                    "name": "Kotak Mahindra Bank Limited",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "AXISBANK.NS",
+                    "name": "Axis Bank Limited",
+                    "weight_hint": 0.11
+                },
+                {
+                    "symbol": "SBIN.NS",
+                    "name": "State Bank of India",
+                    "weight_hint": 0.10
+                },
+                {
+                    "symbol": "INDUSINDBK.NS",
+                    "name": "IndusInd Bank Limited",
+                    "weight_hint": 0.06
+                },
+                {
+                    "symbol": "BANDHANBNK.NS",
+                    "name": "Bandhan Bank Limited",
+                    "weight_hint": 0.03
+                },
+                {
+                    "symbol": "FEDERALBNK.NS",
+                    "name": "Federal Bank Limited",
+                    "weight_hint": 0.02
+                },
+                {
+                    "symbol": "IDFCFIRSTB.NS",
+                    "name": "IDFC First Bank Limited",
+                    "weight_hint": 0.01
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_it",
+            "sector_name": "NIFTY IT",
+            "index_symbol": "^CNXIT",
+            "members": [
+                {
+                    "symbol": "TCS.NS",
+                    "name": "Tata Consultancy Services Limited",
+                    "weight_hint": 0.35
+                },
+                {
+                    "symbol": "INFY.NS",
+                    "name": "Infosys Limited",
+                    "weight_hint": 0.30
+                },
+                {
+                    "symbol": "HCLTECH.NS",
+                    "name": "HCL Technologies Limited",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "WIPRO.NS",
+                    "name": "Wipro Limited",
+                    "weight_hint": 0.10
+                },
+                {
+                    "symbol": "TECHM.NS",
+                    "name": "Tech Mahindra Limited",
+                    "weight_hint": 0.08
+                },
+                {
+                    "symbol": "LTIM.NS",
+                    "name": "LTIMindtree Limited",
+                    "weight_hint": 0.03
+                },
+                {
+                    "symbol": "PERSISTENT.NS",
+                    "name": "Persistent Systems Limited",
+                    "weight_hint": 0.01
+                },
+                {
+                    "symbol": "COFORGE.NS",
+                    "name": "Coforge Limited",
+                    "weight_hint": 0.01
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_pharma",
+            "sector_name": "NIFTY Pharma",
+            "index_symbol": "^CNXPHARMA",
+            "members": [
+                {
+                    "symbol": "SUNPHARMA.NS",
+                    "name": "Sun Pharmaceutical Industries Limited",
+                    "weight_hint": 0.28
+                },
+                {
+                    "symbol": "DRREDDY.NS",
+                    "name": "Dr. Reddy's Laboratories Limited",
+                    "weight_hint": 0.15
+                },
+                {
+                    "symbol": "CIPLA.NS",
+                    "name": "Cipla Limited",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "DIVISLAB.NS",
+                    "name": "Divi's Laboratories Limited",
+                    "weight_hint": 0.11
+                },
+                {
+                    "symbol": "AUROPHARMA.NS",
+                    "name": "Aurobindo Pharma Limited",
+                    "weight_hint": 0.09
+                },
+                {
+                    "symbol": "LUPIN.NS",
+                    "name": "Lupin Limited",
+                    "weight_hint": 0.08
+                },
+                {
+                    "symbol": "BIOCON.NS",
+                    "name": "Biocon Limited",
+                    "weight_hint": 0.07
+                },
+                {
+                    "symbol": "TORNTPHARM.NS",
+                    "name": "Torrent Pharmaceuticals Limited",
+                    "weight_hint": 0.05
+                },
+                {
+                    "symbol": "ALKEM.NS",
+                    "name": "Alkem Laboratories Limited",
+                    "weight_hint": 0.03
+                },
+                {
+                    "symbol": "GRANULES.NS",
+                    "name": "Granules India Limited",
+                    "weight_hint": 0.02
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_auto",
+            "sector_name": "NIFTY Auto",
+            "index_symbol": "^CNXAUTO",
+            "members": [
+                {
+                    "symbol": "MARUTI.NS",
+                    "name": "Maruti Suzuki India Limited",
+                    "weight_hint": 0.25
+                },
+                {
+                    "symbol": "M&M.NS",
+                    "name": "Mahindra & Mahindra Limited",
+                    "weight_hint": 0.20
+                },
+                {
+                    "symbol": "TATAMOTORS.NS",
+                    "name": "Tata Motors Limited",
+                    "weight_hint": 0.18
+                },
+                {
+                    "symbol": "BAJAJ-AUTO.NS",
+                    "name": "Bajaj Auto Limited",
+                    "weight_hint": 0.15
+                },
+                {
+                    "symbol": "HEROMOTOCO.NS",
+                    "name": "Hero MotoCorp Limited",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "EICHERMOT.NS",
+                    "name": "Eicher Motors Limited",
+                    "weight_hint": 0.05
+                },
+                {
+                    "symbol": "TVSMOTOR.NS",
+                    "name": "TVS Motor Company Limited",
+                    "weight_hint": 0.03
+                },
+                {
+                    "symbol": "BALKRISIND.NS",
+                    "name": "Balkrishna Industries Limited",
+                    "weight_hint": 0.02
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_fmcg",
+            "sector_name": "NIFTY FMCG",
+            "index_symbol": "^CNXFMCG",
+            "members": [
+                {
+                    "symbol": "HINDUNILVR.NS",
+                    "name": "Hindustan Unilever Limited",
+                    "weight_hint": 0.35
+                },
+                {
+                    "symbol": "ITC.NS",
+                    "name": "ITC Limited",
+                    "weight_hint": 0.25
+                },
+                {
+                    "symbol": "NESTLEIND.NS",
+                    "name": "Nestle India Limited",
+                    "weight_hint": 0.10
+                },
+                {
+                    "symbol": "BRITANNIA.NS",
+                    "name": "Britannia Industries Limited",
+                    "weight_hint": 0.08
+                },
+                {
+                    "symbol": "DABUR.NS",
+                    "name": "Dabur India Limited",
+                    "weight_hint": 0.06
+                },
+                {
+                    "symbol": "GODREJCP.NS",
+                    "name": "Godrej Consumer Products Limited",
+                    "weight_hint": 0.05
+                },
+                {
+                    "symbol": "MARICO.NS",
+                    "name": "Marico Limited",
+                    "weight_hint": 0.04
+                },
+                {
+                    "symbol": "COLPAL.NS",
+                    "name": "Colgate-Palmolive (India) Limited",
+                    "weight_hint": 0.03
+                },
+                {
+                    "symbol": "TATACONSUM.NS",
+                    "name": "Tata Consumer Products Limited",
+                    "weight_hint": 0.03
+                },
+                {
+                    "symbol": "PGHH.NS",
+                    "name": "Procter & Gamble Hygiene and Health Care Limited",
+                    "weight_hint": 0.01
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_metal",
+            "sector_name": "NIFTY Metal",
+            "index_symbol": "^CNXMETAL",
+            "members": [
+                {
+                    "symbol": "TATASTEEL.NS",
+                    "name": "Tata Steel Limited",
+                    "weight_hint": 0.22
+                },
+                {
+                    "symbol": "HINDALCO.NS",
+                    "name": "Hindalco Industries Limited",
+                    "weight_hint": 0.20
+                },
+                {
+                    "symbol": "JSWSTEEL.NS",
+                    "name": "JSW Steel Limited",
+                    "weight_hint": 0.18
+                },
+                {
+                    "symbol": "COALINDIA.NS",
+                    "name": "Coal India Limited",
+                    "weight_hint": 0.15
+                },
+                {
+                    "symbol": "VEDL.NS",
+                    "name": "Vedanta Limited",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "JINDALSTEL.NS",
+                    "name": "Jindal Steel & Power Limited",
+                    "weight_hint": 0.06
+                },
+                {
+                    "symbol": "SAIL.NS",
+                    "name": "Steel Authority of India Limited",
+                    "weight_hint": 0.04
+                },
+                {
+                    "symbol": "NATIONALUM.NS",
+                    "name": "National Aluminium Company Limited",
+                    "weight_hint": 0.02
+                },
+                {
+                    "symbol": "HINDZINC.NS",
+                    "name": "Hindustan Zinc Limited",
+                    "weight_hint": 0.01
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_energy",
+            "sector_name": "NIFTY Energy",
+            "index_symbol": "^CNXENERGY",
+            "members": [
+                {
+                    "symbol": "RELIANCE.NS",
+                    "name": "Reliance Industries Limited",
+                    "weight_hint": 0.45
+                },
+                {
+                    "symbol": "ONGC.NS",
+                    "name": "Oil and Natural Gas Corporation Limited",
+                    "weight_hint": 0.15
+                },
+                {
+                    "symbol": "POWERGRID.NS",
+                    "name": "Power Grid Corporation of India Limited",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "NTPC.NS",
+                    "name": "NTPC Limited",
+                    "weight_hint": 0.10
+                },
+                {
+                    "symbol": "BPCL.NS",
+                    "name": "Bharat Petroleum Corporation Limited",
+                    "weight_hint": 0.08
+                },
+                {
+                    "symbol": "IOC.NS",
+                    "name": "Indian Oil Corporation Limited",
+                    "weight_hint": 0.06
+                },
+                {
+                    "symbol": "ADANIGREEN.NS",
+                    "name": "Adani Green Energy Limited",
+                    "weight_hint": 0.02
+                },
+                {
+                    "symbol": "TATAPOWER.NS",
+                    "name": "Tata Power Company Limited",
+                    "weight_hint": 0.02
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_realty",
+            "sector_name": "NIFTY Realty",
+            "index_symbol": "^CNXREALTY",
+            "members": [
+                {
+                    "symbol": "GODREJPROP.NS",
+                    "name": "Godrej Properties Limited",
+                    "weight_hint": 0.20
+                },
+                {
+                    "symbol": "DLF.NS",
+                    "name": "DLF Limited",
+                    "weight_hint": 0.25
+                },
+                {
+                    "symbol": "OBEROIRLTY.NS",
+                    "name": "Oberoi Realty Limited",
+                    "weight_hint": 0.15
+                },
+                {
+                    "symbol": "PHOENIXLTD.NS",
+                    "name": "The Phoenix Mills Limited",
+                    "weight_hint": 0.10
+                },
+                {
+                    "symbol": "BRIGADE.NS",
+                    "name": "Brigade Enterprises Limited",
+                    "weight_hint": 0.08
+                },
+                {
+                    "symbol": "PRESTIGE.NS",
+                    "name": "Prestige Estates Projects Limited",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "SUNTECK.NS",
+                    "name": "Sunteck Realty Limited",
+                    "weight_hint": 0.05
+                },
+                {
+                    "symbol": "MAHLIFE.NS",
+                    "name": "Mahindra Lifespace Developers Limited",
+                    "weight_hint": 0.05
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_media",
+            "sector_name": "NIFTY Media",
+            "index_symbol": "^CNXMEDIA",
+            "members": [
+                {
+                    "symbol": "ZEEL.NS",
+                    "name": "Zee Entertainment Enterprises Limited",
+                    "weight_hint": 0.25
+                },
+                {
+                    "symbol": "PVRINOX.NS",
+                    "name": "PVR INOX Limited",
+                    "weight_hint": 0.20
+                },
+                {
+                    "symbol": "SUNTV.NS",
+                    "name": "Sun TV Network Limited",
+                    "weight_hint": 0.18
+                },
+                {
+                    "symbol": "TV18BRDCST.NS",
+                    "name": "TV18 Broadcast Limited",
+                    "weight_hint": 0.10
+                },
+                {
+                    "symbol": "NETWORK18.NS",
+                    "name": "Network18 Media & Investments Limited",
+                    "weight_hint": 0.08
+                },
+                {
+                    "symbol": "HATHWAY.NS",
+                    "name": "Hathway Cable & Datacom Limited",
+                    "weight_hint": 0.07
+                },
+                {
+                    "symbol": "NAZARA.NS",
+                    "name": "Nazara Technologies Limited",
+                    "weight_hint": 0.07
+                },
+                {
+                    "symbol": "ADLABS.NS",
+                    "name": "Adlabs Entertainment Limited",
+                    "weight_hint": 0.05
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_psu_bank",
+            "sector_name": "NIFTY PSU Bank",
+            "index_symbol": "^CNXPSUBANK",
+            "members": [
+                {
+                    "symbol": "SBIN.NS",
+                    "name": "State Bank of India",
+                    "weight_hint": 0.40
+                },
+                {
+                    "symbol": "BANKBARODA.NS",
+                    "name": "Bank of Baroda",
+                    "weight_hint": 0.15
+                },
+                {
+                    "symbol": "PNB.NS",
+                    "name": "Punjab National Bank",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "CANBK.NS",
+                    "name": "Canara Bank",
+                    "weight_hint": 0.10
+                },
+                {
+                    "symbol": "UNIONBANK.NS",
+                    "name": "Union Bank of India",
+                    "weight_hint": 0.08
+                },
+                {
+                    "symbol": "INDIANB.NS",
+                    "name": "Indian Bank",
+                    "weight_hint": 0.05
+                },
+                {
+                    "symbol": "MAHABANK.NS",
+                    "name": "Bank of Maharashtra",
+                    "weight_hint": 0.04
+                },
+                {
+                    "symbol": "CENTRALBK.NS",
+                    "name": "Central Bank of India",
+                    "weight_hint": 0.03
+                },
+                {
+                    "symbol": "IOBB.NS",
+                    "name": "Indian Overseas Bank",
+                    "weight_hint": 0.03
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_fin_service",
+            "sector_name": "NIFTY Financial Services",
+            "index_symbol": "^CNXFINANCE",
+            "members": [
+                {
+                    "symbol": "HDFCBANK.NS",
+                    "name": "HDFC Bank Limited",
+                    "weight_hint": 0.22
+                },
+                {
+                    "symbol": "ICICIBANK.NS",
+                    "name": "ICICI Bank Limited",
+                    "weight_hint": 0.18
+                },
+                {
+                    "symbol": "BAJFINANCE.NS",
+                    "name": "Bajaj Finance Limited",
+                    "weight_hint": 0.15
+                },
+                {
+                    "symbol": "SBIN.NS",
+                    "name": "State Bank of India",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "HDFCLIFE.NS",
+                    "name": "HDFC Life Insurance Company Limited",
+                    "weight_hint": 0.08
+                },
+                {
+                    "symbol": "SBILIFE.NS",
+                    "name": "SBI Life Insurance Company Limited",
+                    "weight_hint": 0.07
+                },
+                {
+                    "symbol": "KOTAKBANK.NS",
+                    "name": "Kotak Mahindra Bank Limited",
+                    "weight_hint": 0.08
+                },
+                {
+                    "symbol": "AXISBANK.NS",
+                    "name": "Axis Bank Limited",
+                    "weight_hint": 0.07
+                },
+                {
+                    "symbol": "BAJAJFINSV.NS",
+                    "name": "Bajaj Finserv Limited",
+                    "weight_hint": 0.03
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_infra",
+            "sector_name": "NIFTY Infrastructure",
+            "index_symbol": "^CNXINFRA",
+            "members": [
+                {
+                    "symbol": "LT.NS",
+                    "name": "Larsen & Toubro Limited",
+                    "weight_hint": 0.25
+                },
+                {
+                    "symbol": "ADANIPORTS.NS",
+                    "name": "Adani Ports and Special Economic Zone Limited",
+                    "weight_hint": 0.15
+                },
+                {
+                    "symbol": "POWERGRID.NS",
+                    "name": "Power Grid Corporation of India Limited",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "ULTRACEMCO.NS",
+                    "name": "UltraTech Cement Limited",
+                    "weight_hint": 0.10
+                },
+                {
+                    "symbol": "GRASIM.NS",
+                    "name": "Grasim Industries Limited",
+                    "weight_hint": 0.08
+                },
+                {
+                    "symbol": "AMBUJACENT.NS",
+                    "name": "Ambuja Cements Limited",
+                    "weight_hint": 0.08
+                },
+                {
+                    "symbol": "ACC.NS",
+                    "name": "ACC Limited",
+                    "weight_hint": 0.07
+                },
+                {
+                    "symbol": "ADANIGREEN.NS",
+                    "name": "Adani Green Energy Limited",
+                    "weight_hint": 0.07
+                },
+                {
+                    "symbol": "IRCTC.NS",
+                    "name": "Indian Railway Catering and Tourism Corporation Limited",
+                    "weight_hint": 0.08
+                }
+            ]
+        },
+        {
+            "sector_id": "nifty_commodities",
+            "sector_name": "NIFTY Commodities",
+            "index_symbol": "^CNXCOMMODITIES",
+            "members": [
+                {
+                    "symbol": "TATASTEEL.NS",
+                    "name": "Tata Steel Limited",
+                    "weight_hint": 0.15
+                },
+                {
+                    "symbol": "HINDALCO.NS",
+                    "name": "Hindalco Industries Limited",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "COALINDIA.NS",
+                    "name": "Coal India Limited",
+                    "weight_hint": 0.13
+                },
+                {
+                    "symbol": "VEDL.NS",
+                    "name": "Vedanta Limited",
+                    "weight_hint": 0.10
+                },
+                {
+                    "symbol": "ULTRACEMCO.NS",
+                    "name": "UltraTech Cement Limited",
+                    "weight_hint": 0.12
+                },
+                {
+                    "symbol": "GRASIM.NS",
+                    "name": "Grasim Industries Limited",
+                    "weight_hint": 0.09
+                },
+                {
+                    "symbol": "JSWSTEEL.NS",
+                    "name": "JSW Steel Limited",
+                    "weight_hint": 0.11
+                },
+                {
+                    "symbol": "ADANIENT.NS",
+                    "name": "Adani Enterprises Limited",
+                    "weight_hint": 0.10
+                },
+                {
+                    "symbol": "ONGC.NS",
+                    "name": "Oil and Natural Gas Corporation Limited",
+                    "weight_hint": 0.08
+                }
+            ]
+        }
+    ]
+}

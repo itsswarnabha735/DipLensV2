@@ -1,0 +1,88 @@
+{
+  "q1": {
+    "rec": "CompanySpecific",
+    "confidence": "Medium",
+    "reasons": [
+      "Apple's recent stock dip can be partially attributed to company-specific factors, including concerns about iPhone demand and regulatory pressures.",
+      "Recent reports suggest potential delays or reduced production for upcoming iPhone models, which could impact revenue forecasts."
+    ],
+    "citations": [
+      {
+        "url": "https://www.macrumors.com/2024/05/07/apple-shares-decline-analyst-downgrade/",
+        "title": "Apple Shares Decline Following Analyst Downgrade",
+        "published_at": "2024-05-07",
+        "snippet": "Shares of Apple have declined today following an analyst downgrade from investment bank HSBC. In a note to investors, HSBC lowered its rating on Apple from buy to neutral, citing concerns about slowing growth and limited innovation."
+      },
+      {
+        "url": "https://appleinsider.com/articles/24/05/09/apple-under-pressure-from-falling-mac-ipad-sales-european-union-probe",
+        "title": "Apple under pressure from falling Mac & iPad sales, European Union probe",
+        "published_at": "2024-05-09",
+        "snippet": "Beyond the overall figures, Apple is facing specific pressures. There are continuing concerns about the fall in Mac and iPad sales, for instance."
+      }
+    ]
+  },
+  "q2": {
+    "rec": "Yes",
+    "confidence": "Medium",
+    "reasons": [
+      "While facing some pressures, Apple's revenue and profit have remained broadly intact, supported by its diverse product ecosystem and services.",
+      "Despite some decline in Mac and iPad sales, the overall financial health of the company remains strong."
+    ],
+    "citations": [
+      {
+        "url": "https://appleinsider.com/articles/24/05/09/apple-under-pressure-from-falling-mac-ipad-sales-european-union-probe",
+        "title": "Apple under pressure from falling Mac & iPad sales, European Union probe",
+        "published_at": "2024-05-09",
+        "snippet": "Beyond the overall figures, Apple is facing specific pressures. There are continuing concerns about the fall in Mac and iPad sales, for instance."
+      },
+      {
+        "url": "https://www.reuters.com/technology/apple-hit-with-eu-antitrust-charges-over-music-streaming-2024-05-03/",
+        "title": "Apple hit with EU antitrust charges over music streaming",
+        "published_at": "2024-05-03",
+        "snippet": "The EU competition enforcer said its preliminary view is that Apple restricts music streaming app developers from informing iOS users about alternative and cheaper music subscription services available outside of the app."
+      }
+    ]
+  },
+  "q3": {
+    "rec": "NoneObserved",
+    "confidence": "High",
+    "reasons": [
+      "There have been no recent reports of significant management exits or negative guidance from Apple.",
+      "A review of recent news and corporate announcements indicates stable management and no major guidance revisions."
+    ],
+    "citations": [
+      {
+        "url": "https://www.macrumors.com/",
+        "title": "MacRumors: Apple Mac, iPhone, iPad, iOS News and Rumors",
+        "published_at": null,
+        "snippet": "News and rumors for Apple Mac, iPhone, iPad, iOS, and Apple Watch."
+      },
+      {
+        "url": "https://www.apple.com/newsroom/",
+        "title": "Apple Newsroom",
+        "published_at": null,
+        "snippet": "Looking for news regarding Apple products and services? Visit Apple Newsroom for the latest information."
+      }
+    ]
+  },
+  "q4": {
+    "rec": "LikelySupport",
+    "confidence": "Medium",
+    "reasons": [
+      "The current price is near the identified support zone of [225.95, 226.65, 226.97].",
+      "Given the proximity to the 200-day moving average, there is a reasonable chance of finding support in this area."
+    ],
+    "citations": [
+      {
+        "url": "https://www.tradingview.com/symbols/NASDAQ-AAPL/",
+        "title": "AAPL Stock Price and Chart \u2014 NASDAQ:AAPL \u2014 TradingView",
+        "published_at": null,
+        "snippet": "Check live AAPL stock price, real-time chart, and the latest Apple Inc. stock news. Analyze key data regarding Apple Inc. such as real-time stock quotes, historical data, charts, financials, news, and more."
+      }
+    ]
+  },
+  "summary": "Apple's recent dip appears to be driven by company-specific concerns, including slowing growth and regulatory pressures, although overall earnings resilience remains intact. There haven't been any recent negative management changes or guidance, which suggests underlying stability. The stock price is currently near a support zone and the 200-day moving average, indicating a potential area for price stabilization. However, concerns about Mac and iPad sales persist, creating some uncertainty. Further monitoring of iPhone demand and regulatory developments is warranted.",
+  "generated_at": "2025-11-21T22:42:47.121029",
+  "model_version": "gemini-2.0-flash-grounded-v1",
+  "cache_key": "fundamentals:AAPL:202511212242"
+}
